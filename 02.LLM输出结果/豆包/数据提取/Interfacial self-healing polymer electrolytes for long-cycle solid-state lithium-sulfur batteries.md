@@ -1,38 +1,42 @@
-# Interfacial self-healing polymer electrolytes for long-cycle solid-state lithium-sulfur batteries - 数据提取
-## 电解质组成
-| 组成 | 材料 | 含量/条件 |
-|------|------|----------|
-| 聚合物基体 | 聚醚聚氨酯（PTMG-HDI-BHDS） | - |
-| 单体 | 聚四氢呋喃（PTMG）、六亚甲基二异氰酸酯（HDI）、2-羟乙基二硫醚（BHDS） | PTMG:HDI:BHDS 摩尔比1:2.4:1 |
-| 锂盐 | 双氟磺酰亚胺锂（LiFSI） | 聚合物:LiFSI 质量比2:1 |
-| 锂盐浓度 | - | 质量比2:1（聚合物与LiFSI） |
-| 溶剂 | 二氯甲烷（CH₂Cl₂）、二甲基乙酰胺（DMAc）、乙腈（ACN，仅PEO/LiFSI用） | 合成时使用，后续真空干燥去除 |
-| 添加剂 | 未报道 | 未报道 |
-| 引发剂 | 二月桂酸二丁基锡（DBTDL） | 5 μL（催化剂） |
-| 交联剂 | 未报道 | 未报道 |
-| 聚合方法 | 逐步缩聚反应 | 氮气氛围下进行 |
-| 聚合条件 | 反应温度40℃，分步添加DMAc后搅拌12 h；电解质膜干燥条件65℃真空干燥48 h | - |
+# Interfacial self-healing polymer electrolytes for long-cycle solid-state lithium-sulfur batteries - Data Extraction
+## Electrolyte Composition
+| Component | Material | Content/Conditions |
+|-----------|----------|--------------------|
+| Polymer Matrix | PTMG-HDI-BHDS (Poly(ether-urethane)) | - |
+| Monomer | PTMG (Polytetrahydrofuran), HDI (Hexamethylene diisocyanate), BHDS (2-Hydroxyethyl disulfide) | PTMG:HDI:BHDS molar ratio = 1:2.4:1 |
+| Lithium Salt | LiFSI (Lithium bis(fluorosulfonyl)imide) | Polymer:LiFSI mass ratio = 2:1 |
+| Lithium Salt Concentration | - | Mass ratio 2:1 (Polymer:LiFSI) |
+| Solvent | CH₂Cl₂ (Dichloromethane), DMAc (Dimethylacetamide); Acetonitrile (for PEO/LiFSI) | Used for dissolving monomers and salts |
+| Additives | - | Not reported |
+| Initiator | DBTDL (Dibutyltin dilaurate) | Catalyst for polymerization, 5 μL per reaction system |
+| Crosslinking Agent | - | Not reported |
+| Polymerization Method | Condensation polymerization, Stepwise polymerization | - |
+| Polymerization Conditions | 40 °C, N₂-filled glove box; PTMG-HDI: stirred for 3 h + DMAc addition (3 times, 5 mL each) + stirred for 12 h; PTMG-HDI-BHDS: stirred for 1 h (after adding BHDS) + DMAc addition (3 times, 5 mL each) + stirred for 12 h | - |
 
-## 电解质性能
-| 性能指标 | 数值 | 单位 | 测试条件 | 备注 |
-|---------|------|------|---------|------|
-| 离子电导率 | 2.4 × 10⁻⁴ | S cm⁻¹ | 30℃ | 高于PTMG-HDI/LiFSI和PEO/LiFSI |
-| 离子电导率（低温） | 未报道 | - | - | - |
-| Li⁺迁移数 | 0.81 | - | 室温 | 对称Li电池测试 |
-| 电化学窗口 | >5.0 | V | 扫描速率10 mV s⁻¹，0-6 V | 优于PEO（3.8 V）和PTMG-HDI（4.1 V） |
-| 阻燃性 | 未报道 | - | - | - |
+## Electrolyte Performance
+| Performance Indicator | Value | Unit | Test Conditions | Remarks |
+|-----------------------|-------|------|-----------------|---------|
+| Ionic Conductivity | 2.4 × 10⁻⁴ | S cm⁻¹ | 30 °C | Higher than PTMG-HDI/LiFSI and PEO/LiFSI |
+| Ionic Conductivity (Low Temperature) | Not reported | - | - | - |
+| Li⁺ Transference Number | 0.81 | - | Room temperature | Measured via chronoamperometry (50 mV DC polarization) |
+| Electrochemical Window | >5.0 | V | Room temperature, scan rate 10 mV s⁻¹ | Wider than PEO (3.8 V) and PTMG-HDI (4.1 V) |
+| Flame Retardancy | Not reported | - | - | - |
 
-## 电池性能
-### 电池1：SPAN||Li（硫化聚丙烯腈正极-锂负极）
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 0.3 C，1.0-3.0 V，激活0.05 C | 602 | mAh g⁻¹ | 700 | 93 | % | 集成结构，库伦效率>99% |
-| 0.1 C，1.0-3.0 V，正极载量6.8 mg cm⁻² | 647 | mAh g⁻¹ | 110 | - | - | 面容量4.4 mAh cm⁻²，循环稳定 |
-| 0.1 C-1.0 C，1.0-3.0 V | 641（0.1 C）、557（1.0 C） | mAh g⁻¹ | - | - | - | 速率性能，返回0.1 C后容量恢复 |
-| 0.3 C，1.0-3.0 V（袋式电池） | 611.8 | mAh g⁻¹ | 250 | 91.7 | % | 可驱动LED灯，室温工作 |
+## Battery Performance
+### Battery 1: SPAN||Li (Sulfurized Polyacrylonitrile || Lithium)
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 0.3 C, 1.0-3.0 V, activated at 0.05 C | 602 | mAh g⁻¹ (based on SPAN) | 400 | 99.7 | % | Integrated structure; laminated structure: 60.7% retention |
+| 0.3 C, 1.0-3.0 V, activated at 0.05 C | 602 | mAh g⁻¹ (based on SPAN) | 700 | 93.0 | % | Coulombic efficiency >99% |
+| 0.1 C, 1.0-3.0 V | 641 | mAh g⁻¹ (based on SPAN) | 200 | - | - | Capacity recovered after rate cycling |
+| 1.0 C, 1.0-3.0 V | 557 | mAh g⁻¹ (based on SPAN) | - | - | - | Rate performance test |
+| 0.1 C, 1.0-3.0 V (high loading cathode) | 647 | mAh g⁻¹ (based on SPAN) | 110 | - | - | Cathode loading: 6.8 mg cm⁻²; areal capacity 4.4 mAh cm⁻² |
+| 0.3 C, 1.0-3.0 V (pouch cell) | 611.8 | mAh g⁻¹ (based on SPAN) | 250 | 91.7 | % | Pouch cell powered LED lamp at room temperature |
 
-### 电池2：S@CB||Li（硫/碳黑正极-锂负极）
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 0.3 C，1.0-3.0 V，激活0.05 C，硫载量2.0 mg cm⁻² | 962 | mAh g⁻¹ | 350 | 84.4 | % | 集成结构，抑制多硫化物穿梭 |
-| 0.3 C，1.0-3.0 V | 812 | mAh g⁻¹ | 350 | 84.4 | % | 面容量1.6 mAh cm⁻²，优于层压结构 |
+### Battery 2: S@CB||Li (Sulfur/Carbon Black || Lithium)
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 0.3 C, 1.0-3.0 V, activated at 0.05 C | 962 | mAh g⁻¹ (based on S) | 350 | 84.4 | % | Integrated structure; areal capacity ~1.6 mAh cm⁻² |
+| 0.3 C, 1.0-3.0 V, activated at 0.05 C | 686 | mAh g⁻¹ (based on S) | 350 | 71.3 | % | Laminated PTMG-HDI-BHDS structure |
+| 0.3 C, 1.0-3.0 V, activated at 0.05 C | 483 | mAh g⁻¹ (based on S) | 350 | 57.4 | % | Integrated PTMG-HDI structure |
+| 0.3 C, 1.0-3.0 V, activated at 0.05 C | 282 | mAh g⁻¹ (based on S) | 350 | 43.0 | % | Laminated PEO/LiFSI structure |

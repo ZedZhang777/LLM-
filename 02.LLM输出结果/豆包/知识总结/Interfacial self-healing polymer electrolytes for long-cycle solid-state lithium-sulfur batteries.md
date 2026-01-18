@@ -1,70 +1,87 @@
 # Interfacial self-healing polymer electrolytes for long-cycle solid-state lithium-sulfur batteries
-## 基本信息
-| 项目 | 内容 |
+## Basic Information
+| Item | Content |
 |------|------|
-| **期刊** | Nature Communications |
-| **年份/卷期** | 2024, 15, 351 |
+| **Journal** | Nature Communications |
+| **Year/Volume-Issue** | 2024, 15:351 |
 | **DOI** | https://doi.org/10.1038/s41467-023-43467-w |
-| **第一作者** | Fei Pei |
-| **通讯作者** | Henghui Xu、Zhen Li、Yunhui Huang |
-| **研究机构** | State Key Laboratory of Materials Processing and Die & Mould Technology, School of Materials Science and Engineering, Huazhong University of Science and Technology, Wuhan 430074, China |
-## 研究背景与动机
-固态锂金属电池（SSLMBs）因高能量密度和安全性备受关注，锂硫（Li-S）电池作为其重要类型，能量密度优势显著。但该类电池面临诸多关键问题：电解质与电极界面复杂且不稳定，存在多硫化物穿梭、电解质快速消耗、锂枝晶无序生长等现象；传统固态聚合物电解质（如PEO基）结晶度高导致离子电导率低，机械强度差，界面接触问题突出；无机固态电解质则存在机械脆性大、界面电阻高的缺陷；原位聚合策略受限于单体类型和聚合度控制，且缺乏实时追踪固态-固态界面接触的有效手段。这些问题严重阻碍了SSLMBs的商业化进程，因此亟需开发兼具高离子电导率、良好界面相容性和结构稳定性的新型电解质及电池构建策略。
-## 研究方法与创新点
-### 凝胶电解质组成
-| 组成部分 | 具体材料 | 含量/比例 |
+| **First Author** | Fei Pei |
+| **Corresponding Author** | Henghui Xu, Zhen Li, Yunhui Huang |
+| **Affiliation** | State Key Laboratory of Materials Processing and Die & Mould Technology, School of Materials Science and Engineering, Huazhong University of Science and Technology, Wuhan 430074, China |
+
+## Research Background and Motivation
+Solid-state Li-metal batteries (SSLMBs) have attracted widespread attention due to their high energy density and safety, especially Li-S batteries combined with Li-metal anodes and sulfur-based cathodes. However, their commercialization is limited by several key issues: 1) Complex and unstable electrode-electrolyte interface problems, such as continuous polysulfide shuttling, rapid electrolyte consumption, and uncontrollable Li-dendrite growth; 2) Inorganic solid electrolytes suffer from severe mechanical brittleness and high interfacial resistance, while traditional polymer electrolytes (e.g., PEO-based) have poor ionic conductivity due to high crystallinity, insufficient mechanical strength, and unsatisfactory electrochemical stability; 3) The flexibility of all-solid-state polymer electrolytes cannot fundamentally solve the interfacial contact problem caused by uneven electrodes, and in-situ polymerization has limitations such as restricted monomer types and uncontrollable polymerization degree; 4) There is a lack of effective methods to real-time track solid-solid interfacial contact issues in batteries. Therefore, it is necessary to develop polymer electrolytes with enhanced ionic conductivity and efficient interfacial ion transport paths to address these challenges.
+
+## Research Methods and Innovation Points
+### Composition of Gel Electrolyte
+| Component | Specific Material | Content/Ratio |
 |---------|---------|----------|
-| **聚合物基体/单体** | 聚四氢呋喃（PTMG）、六亚甲基二异氰酸酯（HDI）、2-羟乙基二硫醚（BHDS，扩链剂） | PTMG:HDI:BHDS摩尔比=1:2.4:1 |
-| **锂盐** | 双氟磺酰亚胺锂（LiFSI） | 聚合物:LiFSI质量比=2:1 |
-| **溶剂** | 二氯甲烷（CH₂Cl₂）、二甲基乙酰胺（DMAc） | 按需添加，用于溶解单体和锂盐 |
-| **添加剂** | 二月桂酸二丁基锡（DBTDL） | 5 μL（催化剂） |
-| **引发剂/交联剂** | 无 | - |
-| **聚合条件** | 40℃、氮气氛围，分阶段添加DMAc，总反应时间约15 h | - |
-### 聚合方法
-- **聚合类型**：逐步缩聚（聚醚聚氨酯由多元醇与多异氰酸酯逐步聚合形成）
-- **聚合条件**：温度40℃，氮气保护，催化剂引发，反应过程中每2 h添加一次DMAc（共3次），总反应时间12-15 h
-### 主要创新点
-1. 设计了基于聚醚聚氨酯的自修复固态聚合物电解质（PTMG-HDI-BHDS），通过动态共价二硫键（低键解离能，室温下易重排）和聚氨酯基团间的氢键网络，实现优异的界面自修复能力，有效修复固-固界面缺陷。
-2. 提出双集成策略，通过预浸涂覆法制备集成正极（S@SPE）和集成负极（Li@SPE），溶剂挥发固化过程中电极与电解质界面“焊接”融合，大幅改善界面接触，降低界面电阻，解决传统层压结构的界面空隙问题。
-3. 首次利用超声成像技术实时追踪固态电池界面接触状态，直观验证集成结构相较于传统层压结构的界面优势，为固态电池界面研究提供了有效表征手段。
-4. 电解质兼具低结晶度、高离子电导率、高机械强度（88.3 MPa）、宽电化学窗口（>5.0 V）和高Li⁺迁移数（0.81），同时抑制锂枝晶生长和多硫化物穿梭。
-## 主要结果
-### 电解质物理化学性能
-| 性能指标 | 测试条件 | 数值 | 单位 |
+| **Polymer Matrix/Monomer** | Poly(ether-urethane) (PTMG-HDI-BHDS); Monomers: Polytetrahydrofuran (PTMG), Hexamethylene diisocyanate (HDI), 2-Hydroxyethyl disulfide (BHDS) | PTMG:HDI:BHDS = 1:2.4:1 (molar ratio) |
+| **Lithium Salt** | Lithium bis(fluorosulfonyl)imide (LiFSI) | Polymer:LiFSI = 2:1 (mass ratio) |
+| **Solvent** | Dichloromethane (CH₂Cl₂), Dimethylacetamide (DMAc) | - |
+| **Additive** | None | - |
+| **Initiator/Crosslinking Agent** | Dibutyltin dilaurate (DBTDL) | Catalytic amount (5 μL for reaction system) |
+| **Polymerization Conditions** | 40℃, N₂ atmosphere; PTMG-HDI: stirred for 3 h + subsequent 12 h; PTMG-HDI-BHDS: stirred for 1 h after adding BHDS + subsequent 12 h | - |
+
+### Polymerization Method
+- **Polymerization Type**: Stepwise Polymerization (Condensation Polymerization)
+- **Polymerization Conditions**: Temperature: 40℃; Time: PTMG-HDI total ~15 h, PTMG-HDI-BHDS total ~13 h; Initiation Method: DBTDL-catalyzed; Atmosphere: Nitrogen (N₂)
+
+### Key Innovation Points
+1. Designed a poly(ether-urethane)-based solid-state polymer electrolyte (PTMG-HDI-BHDS) with dynamic covalent disulfide bonds and hydrogen bonds between urethane groups, achieving excellent interfacial self-healing ability to repair solid-solid interfacial defects during the entire battery life cycle.
+2. Proposed a dual-integrated strategy: Prepared integrated electrode/electrolyte structures (SPAN@SPE cathode, Li@SPE anode) via pre-impregnation coating, which significantly improved interfacial contact and reduced interfacial resistance compared to traditional laminated structures.
+3. Applied ultrasound imaging technology to real-time monitor the interfacial contact state of solid-state batteries, providing a direct and effective characterization method for analyzing solid-solid interfacial problems.
+
+## Main Results
+### Physicochemical Properties of Electrolyte
+| Performance Indicator | Test Conditions | Value | Unit |
 |---------|---------|------|------|
-| **离子电导率** | 25°C | -（未明确给出） | S cm⁻¹ |
-| **离子电导率** | 30°C | 2.4×10⁻⁴ | S cm⁻¹ |
-| **离子电导率** | -40°C | -（未测试） | S cm⁻¹ |
-| **Li⁺迁移数** | 室温 | 0.81 | - |
-| **电化学窗口** | 室温 | >5.0 | V |
-| **阻燃性** | - | -（未提及） | - |
-| **机械性能** | 室温，拉伸速率5 cm min⁻¹ | 断裂强度88.3，断裂伸长率2000% | MPa，% |
-### 电池性能数据
-#### 固态锂硫电池（SPAN||Li）
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
+| **Ionic Conductivity** | 25°C | - (Higher than PEO/LiFSI and PTMG-HDI/LiFSI at 30℃) | S cm⁻¹ |
+| **Ionic Conductivity** | -40°C | No data | S cm⁻¹ |
+| **Li⁺ Transference Number** | - | 0.81 | - |
+| **Electrochemical Window** | - | >5.0 | V |
+| **Flame Retardancy** | - | No relevant data | - |
+| **Mechanical Properties** | - | Breaking strength: 88.3 MPa; Ultimate elongation: 2000% | - |
+
+### Battery Performance Data
+#### SPAN||Li Metal Battery (Solid-State Li-S Battery)
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
 |---------|---------|---------|-----------|------|
-| 0.3 C，30℃ | 602 mAh g⁻¹（基于SPAN） | 700次 | 93% | 库仑效率>99% |
-| 0.1 C，30℃（高载量） | 647 mAh g⁻¹（基于SPAN） | 110次 | -（循环稳定） | 正极载量6.8 mg cm⁻²，面容量4.4 mAh cm⁻² |
-| 0.1-1.0 C，30℃ | 641-557 mAh g⁻¹（基于SPAN） | - | - | 速率恢复至0.1 C后容量稳定 |
-#### 固态锂硫电池（S@CB||Li）
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 0.3 C，30℃ | 962 mAh g⁻¹（基于S） | 350次 | 84.4% | 面容量约1.6 mAh cm⁻² |
-#### Li||Li对称电池
-| 电流密度 | 面积容量 | 稳定循环时间 | 过电位 | 备注 |
+| 30℃, 0.3 C (1 C=1000 mAh g⁻¹(SPAN)) | 602 mAh g⁻¹(SPAN) | 700 cycles | 93% | Integrated structure; Coulombic efficiency >99% |
+| 30℃, 0.1 C | 641 mAh g⁻¹(SPAN) | - | - | Rate performance test |
+| 30℃, 1.0 C | 557 mAh g⁻¹(SPAN) | - | - | Rate performance test; Capacity recoverable when switching back to 0.1 C |
+
+#### Li||Li Symmetric Battery
+| Current Density | Areal Capacity | Stable Cycling Time | Overpotential | Remarks |
 |---------|---------|------------|--------|------|
-| 0.2 mA cm⁻² | 0.2 mAh cm⁻² | >6000 h（3000次） | -（电压滞后稳定） | 集成结构，界面自修复稳定 |
-| 0.1 mA cm⁻² | - | - | 49 mV | 不同电流密度下均稳定 |
-| 0.4 mA cm⁻² | - | - | 113 mV | - |
-| 1.0 mA cm⁻² | - | - | 262 mV | - |
-### 特殊性能
-- **宽温性能**：主要在30℃下测试，未明确低温/高温性能，但电解质热稳定性良好，可长期储存。
-- **安全性**：抑制锂枝晶生长（SEI层富含LiF，界面稳定）；电解质化学和热稳定性优异，降低电池安全风险。
-- **其他特色性能**：室温自修复能力，断裂后可快速融合，修复后机械强度接近原始值；集成结构界面接触优异，无分层现象。
-## 机理分析与表征
-1. **结构表征**：通过XRD证实PTMG-HDI-BHDS结晶度显著降低，改善Li⁺迁移；ATR-FTIR和¹H NMR验证聚合物中聚氨酯基团、二硫键及氢键网络的成功构建；GPC测试表明聚合物数均分子量达7.3×10⁵ g mol⁻¹，粘度1.3×10⁴ cps。
-2. **界面机理**：XPS深度分析显示，PTMG-HDI-BHDS体系中Li阳极SEI层富含LiF（94%），LiF作为优良电子绝缘体，促进Li⁺传输并稳定电极界面，抑制电解质分解；传统PEO体系SEI层有机成分占比高（72%），导致界面不稳定。
-3. **传输机理**：Raman光谱表明PTMG-HDI-BHDS对LiFSI的解离效率高达95.2%（自由FSI⁻比例），低结晶度和丰富醚氧基团促进Li⁺迁移；DFT计算显示PTMG的LUMO能量（1.35 eV）高于PEO，与Li阳极电化学兼容性更强，Li⁺结合能更高，加速锂盐溶解解离。
-4. **界面追踪**：超声成像技术实时观察到，集成结构电池循环过程中界面接触逐步改善（PPV从0.58增至0.65 V），而传统层压结构出现界面空隙扩大（PPV降至0.05 V），直观验证双集成策略的界面优势。
-## 结论与意义
-该研究成功开发了基于聚醚聚氨酯的自修复固态聚合物电解质（PTMG-HDI-BHDS），并提出双集成电极/电解质构建策略，有效解决了固态锂金属电池的界面接触差、锂枝晶生长和多硫化物穿梭等关键问题。电解质通过动态二硫键和氢键实现优异的界面自修复能力，兼具高离子电导率、高机械强度和宽电化学窗口；集成结构大幅降低界面电阻，使Li||Li对称电池稳定循环超6000 h，固态Li-S电池循环700次后容量保持率达93%。超声成像技术为固态电池界面研究提供了创新表征手段。该工作为设计高性能固态锂金属电池提供了全新的界面双集成思路，对推动固态锂硫电池的商业化进程具有重要意义，为高能量密度、高安全性储能器件的发展奠定了基础。
+| 0.2 mA cm⁻² | 0.2 mAh cm⁻² | >6000 h (3000 cycles) | - | Integrated structure; Stable voltage hysteresis |
+| 0.1 mA cm⁻² | - | - | 49 mV | Rate performance test |
+| 1.0 mA cm⁻² | - | - | 262 mV | Rate performance test; No abrupt failure |
+
+#### S@CB||Li Metal Battery (Solid-State Li-S Battery)
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
+|---------|---------|---------|-----------|------|
+| 30℃, 0.3 C (1 C=1675 mAh g⁻¹(S)) | 962 mAh g⁻¹(S) | 350 cycles | 84.4% | Integrated structure; Areal capacity ~1.6 mAh cm⁻² |
+
+### Special Performance
+- **Wide-Temperature Performance**: No special data on low/high temperature performance; All tests were conducted at 30℃, and ionic conductivity shows temperature dependence (activation energy = 0.68 eV).
+- **Safety**: The electrolyte exhibits good electrochemical stability; It can suppress Li-dendrite growth and form a stable SEI film (rich in LiF, an excellent electronic insulator with high Li⁺ transfer interfacial energy); Effectively inhibits polysulfide shuttling.
+- **Other Characteristic Performance**: Excellent room-temperature self-healing ability (can repair scratches and fractures, and the mechanical strength of the self-healed electrolyte is close to the original); High mechanical robustness (breaking strength 88.3 MPa, elongation 2000%); Good battery consistency and reproducible electrochemical performance; The integrated pouch cell can power LED lamps at room temperature.
+
+## Mechanism Analysis and Characterization
+- **Gel Permeation Chromatography (GPC)**: Monitored the real-time polymerization process of PTMG-HDI-BHDS, determining that the number-average molecular weight (Mn) reaches 7.3×10⁵ g mol⁻¹ and viscosity reaches 1.3×10⁴ cps, confirming the successful polymerization.
+- **X-ray Diffraction (XRD)**: Analyzed the crystallinity; PTMG-HDI-BHDS and its LiFSI composite have significantly reduced peak intensities compared to PEO, indicating lower crystallinity, which improves Li⁺ mobility and ionic conductivity.
+- **Scanning Electron Microscopy (SEM) & Energy Dispersive Spectroscopy (EDS)**: Observed that the surface of PTMG-HDI-BHDS is dense and smooth; Confirmed that the integrated SPAN@SPE and Li@SPE layers are well integrated without delamination, forming a 3D interpenetrating Li⁺ channel.
+- **ATR-FTIR, ¹H NMR, XPS**: Verified the chemical structure of the polymer (presence of disulfide bonds, urethane groups, and hydrogen bonds); XPS depth profiling showed that the SEI film of Li|PTMG-HDI-BHDS|Li is rich in LiF (94%), while that of Li|PEO|Li is rich in organic C-F (72%), explaining the stable interfacial performance of the former.
+- **Electrochemical Impedance Spectroscopy (EIS) & Linear Sweep Voltammetry (LSV)**: EIS confirmed that the dual-integrated strategy reduces interfacial resistance; LSV showed that PTMG-HDI-BHDS/LiFSI has an electrochemical window exceeding 5.0 V, superior to PEO (3.8 V) and PTMG-HDI (4.1 V).
+- **Ultrasound Imaging**: Real-time tracked the interfacial contact state during cycling; The integrated structure showed increased peak-peak amplitude (PPV) and improved interfacial contact, while the laminated structure had expanded blue areas indicating poor contact.
+- **DFT Calculations**: Revealed that the LUMO energy of PTMG repeat units (1.35 eV) is higher than that of PEO (0.64 eV), indicating better electrochemical compatibility with Li anodes; The higher binding energy between PTMG and Li⁺ accelerates lithium salt solvation and dissociation.
+
+## Conclusions and Significance
+### Core Conclusions
+1. A poly(ether-urethane)-based solid-state polymer electrolyte (PTMG-HDI-BHDS) with self-healing properties was successfully prepared, which exhibits robust mechanical strength (breaking strength 88.3 MPa, elongation 2000%), high ionic conductivity, a Li⁺ transference number of 0.81, and a wide electrochemical window (>5.0 V) due to dynamic disulfide bonds and hydrogen bonds.
+2. The dual-integrated strategy (integrated electrode/electrolyte structure) significantly improves interfacial contact, reduces interfacial resistance, and enables Li||Li symmetric cells to cycle stably for more than 6000 h; Solid-state Li-S batteries with SPAN and S@CB cathodes achieve long cycling life (700 cycles and 350 cycles, respectively) and high capacity retention rates (93% and 84.4%, respectively) at 0.3 C.
+3. Ultrasound imaging technology effectively tracks the dynamic changes of solid-solid interfaces in real time, verifying the superiority of the integrated structure in improving interfacial contact.
+
+### Significance and Application Value
+This work proposes an innovative interfacial dual-integrated strategy based on self-healing polymer electrolytes, which provides a new solution to the key challenges of high interfacial resistance and Li-dendrite growth in solid-state Li-metal batteries. The designed electrolyte and preparation method have good scalability (easily scaled up to kilogram level), and the excellent electrochemical performance of the battery (long cycle life, high capacity retention, good rate performance) lays a foundation for the development of high-energy-density solid-state Li-S batteries. In addition, the application of ultrasound imaging technology provides a new effective means for the research of solid-state battery interfaces, which is of great significance for promoting the commercialization of solid-state Li-metal batteries.

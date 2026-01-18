@@ -1,70 +1,98 @@
 # Upgrading traditional liquid electrolyte via in situ gelation for future lithium metal batteries
-## 基本信息
-| 项目 | 内容 |
+## Basic Information
+| Item | Content |
 |------|------|
-| **期刊** | Science Advances |
-| **年份/卷期** | 2018, 4, eaat5383 |
+| **Journal** | Science Advances |
+| **Year/Volume-Issue** | 2018, 4, eaat5383 |
 | **DOI** | 10.1126/sciadv.aat5383 |
-| **第一作者** | Feng-Quan Liu, Wen-Peng Wang（共同一作） |
-| **通讯作者** | Lin Li, Yu-Guo Guo |
-| **研究机构** | 北京师范大学、中国科学院化学研究所、中国科学院大学 |
-## 研究背景与动机
-锂金属电池（LMBs）因高能量密度成为下一代储能系统的重要候选，但液态电解质中锂枝晶的无控生长和锂金属粉化问题严重阻碍其商业化。现有凝胶聚合物电解质（GPEs）和固体聚合物电解质（SPEs）虽能改善锂阳极稳定性，但存在电极-电解质界面分离等问题。传统原位聚合策略多依赖自由基聚合，需额外非电解性质单体、引发剂及高温等特殊条件，缺乏利用商用电解液材料、无杂质引入且温和条件下可行的高效策略，因此亟需开发简单易行的电解液液-固转化方法。
-## 研究方法与创新点
-### 凝胶电解质组成
-| 组成部分 | 具体材料 | 含量/比例 |
+| **First Author** | Feng-Quan Liu, Wen-Peng Wang (Equal contribution) |
+| **Corresponding Author** | Lin Li, Yu-Guo Guo |
+| **Affiliation** | 1. Beijing Key Laboratory of Energy Conversion and Storage Materials, College of Chemistry, Beijing Normal University, Beijing 100875, China; 2. CAS Key Laboratory of Molecular Nanostructure and Nanotechnology, CAS Research/Education Center for Excellence in Molecular Sciences, Institute of Chemistry, Chinese Academy of Sciences, Beijing 100190, China; 3. University of Chinese Academy of Sciences, Beijing 100049, China |
+
+## Research Background and Motivation
+Lithium metal batteries (LMBs) are regarded as promising next-generation energy storage devices due to their high energy density. However, the uncontrolled growth of Li dendrites and pulverization of Li anodes in traditional liquid electrolytes (LEs) severely hinder their commercialization. Although gel polymer electrolytes (GPEs) and solid polymer electrolytes (SPEs) show better stability toward Li anodes than LEs, they suffer from interfacial separation issues between cathodes and electrolytes. Most existing in situ polymerization strategies for preparing GPEs/SPEs rely on free radical polymerization, which requires additional non-electrolytic monomers, initiators, and harsh conditions (e.g., high temperature). Thus, there is an urgent need to develop a facile, impurity-free strategy using commercial electrolyte materials under moderate conditions to upgrade traditional liquid electrolytes to quasi-solid/solid systems.
+
+## Research Methods and Innovation Points
+### Composition of Gel Electrolyte
+| Component | Specific Material | Content/Ratio |
 |---------|---------|----------|
-| **聚合物基体/单体** | 1,3-二氧戊环（DOL）、聚二氧戊环（PDXL，聚合产物） | DOL与DME体积比1:1 |
-| **锂盐** | 六氟磷酸锂（LiPF₆）、双三氟甲烷磺酰亚胺锂（LiTFSI） | LiPF₆：2M；LiTFSI：1M |
-| **溶剂** | 1,2-二甲氧基乙烷（DME） | 与DOL体积比1:1 |
-| **添加剂** | 无 | 无 |
-| **引发剂/交联剂** | 五氟化磷（PF₅，LiPF₆分解产物） | 微量（LiPF₆分解产生） |
-| **聚合条件** | 室温、无需外部加热，静置一段时间自发凝胶化 | - |
-### 聚合方法
-- **聚合类型**：阳离子开环聚合（DOL的阳离子诱导开环聚合）
-- **聚合条件**：室温，凝胶化10小时后性能稳定
-### 主要创新点
-1. 首次发现LiPF₆诱导醚基电解液（DOL/DME）原位阳离子开环聚合的反应机制，无需额外引发剂、非电解性质单体及高温，仅利用商用电解液材料即可实现液-固转化，工艺简单高效且无杂质引入。
-2. 开发的准固态GPE具有普适性，兼容硫、橄榄石型LiFePO₄和层状LiNi₀.₆Co₀.₂Mn₀.₂O₂（NCM₆₂₂）等多种正极材料，突破传统醚基电解液的应用限制。
-3. 同步解决锂金属电池的核心痛点：有效抑制锂枝晶生长和粉化、改善电极-电解质界面兼容性、抑制锂硫电池中多硫化物穿梭效应，同时拓宽醚基电解液的电化学稳定窗口，适配高电压正极。
-## 主要结果
-### 电解质物理化学性能
-| 性能指标 | 测试条件 | 数值 | 单位 |
+| **Polymer Matrix/Monomer** | 1,3-Dioxolane (DOL) | - |
+| **Lithium Salt** | Lithium hexafluorophosphate (LiPF₆), Lithium bis(trifluoromethanesulfonyl)imide (LiTFSI) | 2 M LiPF₆, 1 M LiTFSI |
+| **Solvent** | 1,3-Dioxolane (DOL), 1,2-Dimethoxyethane (DME) | DOL:DME = 1:1 (v/v) |
+| **Additive** | None | - |
+| **Initiator/Crosslinking Agent** | Phosphorus pentafluoride (PF₅, derived from LiPF₆ decomposition) | - |
+| **Polymerization Conditions** | Ambient temperature, standing for a certain period | - |
+
+### Polymerization Method
+- **Polymerization Type**: Cationic Ring-Opening Polymerization
+- **Polymerization Conditions**: Temperature (room temperature), Time (spontaneous gelation after standing), Initiation Method (dissolution heat of LiPF₆ induces partial decomposition to generate PF₅)
+
+### Key Innovation Points
+1. Pioneered the use of commercial LiPF₆ to induce in situ cationic ring-opening polymerization of DOL, realizing spontaneous gelation of traditional ether-based LEs at room temperature without external stimulation.
+2. The strategy uses commercial electrolyte materials (no additional monomers/initiators) and avoids impurity introduction, featuring ultra-simplicity and compatibility with existing battery manufacturing processes.
+3. The prepared GPE exhibits excellent universality for diverse cathodes (sulfur, LiFePO₄, NCM₆₂₂) and broadens the electrochemical stability window of ether-based electrolytes, breaking the voltage limitation of traditional ether electrolytes.
+
+## Main Results
+### Physicochemical Properties of Electrolyte
+| Performance Indicator | Test Conditions | Value | Unit |
 |---------|---------|------|------|
-| **离子电导率** | 25°C | 3.8×10⁻³ | S cm⁻¹ |
-| **离子电导率** | -40°C | 未报道 | S cm⁻¹ |
-| **Li⁺迁移数** | - | 未报道 | - |
-| **电化学窗口** | 室温，2.5-5.0V扫描 | 4.6 | V |
-| **阻燃性** | - | 未报道 | - |
-| **机械性能** | 室温 | 具有可拉伸性、高机械强度 | - |
-### 电池性能数据
-#### Li-S电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
+| **Ionic Conductivity** | 25°C | 3.8×10⁻³ | S cm⁻¹ |
+| **Ionic Conductivity** | -40°C | Not reported | S cm⁻¹ |
+| **Li⁺ Transference Number** | - | Not reported | - |
+| **Electrochemical Window** | - | 4.6 | V |
+| **Flame Retardancy** | - | Not reported | - |
+| **Mechanical Properties** | Room temperature | High mechanical strength, flexible and stretchable | - |
+
+### Battery Performance Data
+#### Li||Li Symmetric Battery
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
 |---------|---------|---------|-----------|------|
-| 0.5C，室温 | 1010 | 1000次 | 50% | 每循环衰减0.05%，库仑效率>97% |
-| 0.5C，室温 | 1010 | 500次 | 73.7% | 初始库仑效率97.2%，无添加剂 |
-#### Li||Li对称电池
-| 电流密度 | 面积容量 | 稳定循环时间 | 过电位 | 备注 |
-|---------|---------|------------|--------|------|
-| 0.5 mA cm⁻² | 1.0 mAh cm⁻² | >800小时 | <25 mV | 循环后期仍保持稳定 |
-| 1.0 mA cm⁻² | 1.0 mAh cm⁻² | >400小时 | 无明显极化变化 | 无锂枝晶生长 |
-#### LiFePO₄||Li电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
+| Current density: 0.5 mA cm⁻² | 1.0 mAh cm⁻² | >800 h | - | Overpotential <25 mV after activation, stable Li deposition/stripping |
+| Current density: 1.0 mA cm⁻² | 1.0 mAh cm⁻² | >400 h | - | No obvious voltage polarization variation |
+
+#### Li-S Battery (0.5 C)
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
 |---------|---------|---------|-----------|------|
-| 0.5C，室温 | - | 700次 | 95.6% | 库仑效率>99.5%，极化电压0.14V |
-#### NCM₆₂₂||Li电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
+| - | 1010 mAh g⁻¹ | 500 cycles | 73.7% | Coulombic efficiency >97.0% (no additives) |
+| - | 1010 mAh g⁻¹ | 1000 cycles | ~50% | Capacity decay: 0.05% per cycle |
+
+#### LiFePO₄||Li Battery (0.5 C)
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
 |---------|---------|---------|-----------|------|
-| 0.1C，室温，截止电压4.3V | - | 100次 | 稳定 | 无过充现象，电化学窗口拓宽至4.6V |
-### 特殊性能
-- **宽温性能**：聚合物骨架（PDXL）熔点60°C，电池形成过程中对温度变化具有良好耐受性和可逆性，低温/高温具体性能未报道。
-- **安全性**：GPE挥发量仅为原始液态电解质（LE）的1/6，热稳定性优异，可减少电解液泄漏风险。
-- **其他特色性能**：具有高柔韧性，软包NCM₆₂₂||Li电池可弯曲、折叠甚至恢复原状后仍能稳定驱动LED灯，界面附着性强。
-## 机理分析与表征
-- 采用¹H NMR、¹³C NMR和FTIR证实聚合产物聚二氧戊环（PDXL）的化学结构，其重复单元为-CH₂-O-CH₂-CH₂-O-，DOL聚合转化率达91.0%；
-- 通过GC-MS检测到LiPF₆分解产生的PF₅，XPS证实GPE中存在微量LiF，揭示聚合机理：LiPF₆溶解热引发部分分解生成PF₅（强路易斯酸），PF₅与微量水（12 ppm）形成H⁺(PF₅OH)⁻，诱导DOL阳离子开环聚合形成PDXL，微量水通过亲核取代终止链增长；
-- 利用GPC追踪凝胶化过程中PDXL分子量变化，10小时后数均分子量达~52,000；
-- 借助SEM观察到GPE体系中锂阳极循环后表面光滑无枝晶，截面无粉化层，而液态电解质体系中锂阳极表面粗糙、存在枝晶且粉化层深度超50μm；
-- 通过LSV测试证实GPE电化学窗口达4.6V，EIS测试表明GPE基电池循环过程中内阻稳定，无明显增长。
-## 结论与意义
-本研究创新地利用LiPF₆诱导传统醚基液态电解液原位阳离子开环聚合，在室温下自发形成准固态凝胶聚合物电解质（GPE）。该策略具有材料商用化、无杂质引入、条件温和等优势，所制备的GPE能有效抑制锂枝晶生长和粉化，改善电极-电解质界面兼容性，且对硫、LiFePO₄、NCM₆₂₂等多种正极具有普适性：在锂硫电池中抑制多硫化物穿梭，实现1000次长循环；在LiFePO₄电池中展现95.6%的高容量保持率；在NCM₆₂₂电池中突破传统醚基电解液的电压限制，实现4.3V高电压稳定循环。该研究为锂金属电池电解液的液-固转化提供了简单可行的新路径，适配现有电池封装技术，极大推动锂金属电池的大规模商业化应用，为先进电解液体系的开发开辟了新方向。
+| - | - | 700 cycles | 95.6% | Coulombic efficiency >99.5%, minor polarization |
+
+#### NCM₆₂₂||Li Battery (4.3 V cutoff)
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
+|---------|---------|---------|-----------|------|
+| 0.1 C | - | 100 cycles | Stable | No oxidation-induced overcharging, normal charge/discharge behavior |
+
+### Special Performance
+- **Wide-Temperature Performance**: Not specifically reported; GPE shows good temperature tolerance during battery formation.
+- **Safety**: Volatility is only 1/6 of pristine LE; thermal stability (polymer framework melting point ~60°C); no Li dendrite growth, reduced interfacial reactions.
+- **Other Characteristic Performance**: High flexibility (can power LEDs under bending/folding); excellent resistance to self-discharge (Li-S battery: 6% capacity loss after 1-week placement vs. 40% for LE).
+
+## Mechanism Analysis and Characterization
+### Characterization Methods
+- GC-MS: Detected PF₅ (initiator derived from LiPF₆ decomposition).
+- NMR (¹H NMR, ¹³C NMR): Confirmed the structure of polydioxolane (PDXL) with repeating unit -CH₂-O-CH₂-CH₂-O-.
+- FTIR: Verified the functional groups of PDXL.
+- XPS: Identified trace LiF from LiPF₆ decomposition and characterized Li anode surface compositions.
+- GPC: Measured PDXL molecular weight (~52,000 after 10 h).
+- SEM: Observed uniform GPE coverage on cathodes/separators, smooth Li anode surface (no dendrites) after cycling.
+- EIS: Monitored ionic conductivity during gelation and internal resistance stability during cycling.
+- LSV: Determined the electrochemical window of GPE (4.6 V) and LE (~4.0 V).
+- Contact angle measurement: Confirmed good wettability of precursor solution to battery components.
+
+### Mechanism
+LiPF₆ (high concentration) dissolves in DOL/DME LE, and its dissolution heat induces partial decomposition to generate PF₅ (a strong Lewis acid). PF₅ combines with trace water (12 ppm) to form H⁺(PF₅OH)⁻, which protonates DOL monomers to form reactive oxonium ions. DOL monomers continuously insert into oxonium ions to grow polymer chains, and trace water terminates chain growth via nucleophilic substitution, forming high-molecular-weight linear PDXL. The PDXL framework combines with liquid DME to form a homogeneous quasi-solid GPE. The polymer framework confines the liquid phase, reduces Li-electrolyte contact, suppresses dendrite growth, and blocks polysulfide diffusion (for Li-S batteries).
+
+## Conclusions and Significance
+### Core Conclusions
+1. A facile in situ gelation strategy is developed: LiPF₆ induces cationic ring-opening polymerization of DOL at room temperature, converting traditional ether-based LEs into quasi-solid GPEs without additional impurities.
+2. The GPE effectively suppresses Li dendrite growth and pulverization, improves interfacial compatibility with Li anodes, and exhibits universality for sulfur, LiFePO₄, and NCM₆₂₂ cathodes.
+3. The GPE enables Li-S batteries with long cycling stability (1000 cycles), LiFePO₄ batteries with high capacity retention (95.6% after 700 cycles), and NCM₆₂₂ batteries with stable cycling at 4.3 V (breaking ether electrolyte voltage limits).
+
+### Significance and Application Value
+- This strategy uses commercial electrolyte materials and moderate conditions, which is highly compatible with existing battery manufacturing technologies, promoting the large-scale commercialization of LMBs.
+- It provides a new paradigm for upgrading traditional liquid electrolytes to quasi-solid systems, overcoming the limitations of existing in situ polymerization methods.
+- The GPE's universality and superior performance (safety, long cycling, flexibility) make it a promising electrolyte for next-generation high-energy LMBs, opening up new directions for advanced electrolyte research.

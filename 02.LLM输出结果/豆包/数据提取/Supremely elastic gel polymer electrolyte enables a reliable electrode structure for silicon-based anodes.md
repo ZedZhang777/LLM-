@@ -1,36 +1,36 @@
-# Supremely elastic gel polymer electrolyte enables a reliable electrode structure for silicon-based anodes - 数据提取
-## 电解质组成
-| 组成 | 材料 | 含量/条件 |
-|------|------|----------|
-| 聚合物基体 | 聚（聚四亚甲基醚二醇-co-4,4'-亚甲基二苯基二异氰酸酯）-乙二胺（PTMG-MDI-EDA） | 软域（PTMG）与硬域（MDI-EDA）比例2:1 |
-| 单体 | 聚四亚甲基醚二醇（PTMG）、4,4'-亚甲基二苯基二异氰酸酯（MDI）、乙二胺（EDA） | PTMG：1.0 mmol，MDI：2.0 mmol，EDA：1.0 mmol |
-| 锂盐 | LiPF₆ | |
-| 锂盐浓度 | 1 M | |
-| 溶剂 | 碳酸乙烯酯（EC）/碳酸二乙酯（DEC） | 1:1（v/v） |
-| 添加剂 | 氟代碳酸乙烯酯（FEC） | 10 wt.% |
-| 引发剂 | 未报道 | 未报道 |
-| 交联剂 | 未报道 | 未报道 |
-| 聚合方法 | 逐步聚合 | |
-| 聚合条件 | 氩气惰性氛围，先80°C反应4 h，冷却后70°C反应4 h | |
+# Supremely elastic gel polymer electrolyte enables a reliable electrode structure for silicon-based anodes - Data Extraction
+## Electrolyte Composition
+| Component | Material | Content/Conditions |
+|-----------|----------|--------------------|
+| Polymer Matrix | poly(poly(tetramethylene ether) glycol-co-4,4’-methylene diphenyl diisocyanate)-ethylene diamine (PTMG-MDI-EDA) | Copolymer with soft (PTMG) and hard (MDI-EDA) domains (ratio 2:1 for optimal performance) |
+| Monomer | PTMG (poly(tetramethylene ether) glycol), MDI (4,4’-methylene diphenyl diisocyanate), EDA (ethylene diamine) | PTMG (Mw=2900), MDI:PTMG:EDA = 2.0 mmol:1.0 mmol:1.0 mmol |
+| Lithium Salt | LiPF₆ | 1 M |
+| Lithium Salt Concentration | - | 1 M |
+| Solvent | EC/DEC (Ethylene Carbonate/Diethyl Carbonate) | 1:1 (v/v) |
+| Additives | FEC (Fluoroethylene Carbonate) | 10 wt.% |
+| Initiator | - | Not reported |
+| Crosslinking Agent | - | Not reported |
+| Polymerization Method | Step-growth polymerization | MDI-PTMG prepolymerization followed by chain extension with EDA |
+| Polymerization Conditions | - | 80°C for 4 h (prepolymerization), 70°C for 4 h (chain extension), under inert argon atmosphere |
 
-## 电解质性能
-| 性能指标 | 数值 | 单位 | 测试条件 | 备注 |
-|---------|------|------|---------|------|
-| 离子电导率 | 2.4 × 10⁻⁴ | S cm⁻¹ | 25 °C | 与液态电解质相当 |
-| 离子电导率（低温） | 未报道 | 未报道 | 未报道 | |
-| Li⁺迁移数 | 未报道 | 未报道 | 未报道 | |
-| 电化学窗口 | 4.5 | V | vs Li⁺/Li | 循环伏安法测试，稳定上限 |
-| 阻燃性 | 未报道 | 未报道 | 未报道 | |
+## Electrolyte Performance
+| Performance Indicator | Value | Unit | Test Conditions | Remarks |
+|-----------------------|-------|------|-----------------|---------|
+| Ionic Conductivity | 2.4 × 10⁻⁴ | S cm⁻¹ | 25 °C | Comparable to liquid electrolyte |
+| Ionic Conductivity (Low Temperature) | - | - | - | Not reported |
+| Li⁺ Transference Number | - | - | - | Not reported |
+| Electrochemical Window | 4.5 | V | Versus Li⁺/Li | Stable up to 4.5 V (cyclic voltammetry test) |
+| Flame Retardancy | - | - | - | Not reported |
 
-## 电池性能
-### 电池1：Li||SiO 半电池
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 首次循环0.3 mA cm⁻²，后续1.0 mA cm⁻²；电压范围0.01-1.5 V | 1068 | mAh g⁻¹ | 250 | ~100 | % | 更换新鲜锂对电极后仍稳定 |
-| | | | 150 | ~100 | % | 未更换对电极时的稳定循环 |
+## Battery Performance
+### Battery 1: Li||SiO Half-Cell
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 0.3 mA cm⁻² (1st cycle), 1.0 mA cm⁻² (subsequent cycles); Voltage: 0.01-1.5 V; SiO mass loading: 3.7 mg cm⁻²; Copolymer amount: 0.4 mg cm⁻² | 1068 | mAh g⁻¹ | 250 | 100.0 | % | Capacity remained stable after 250 cycles; Fresh Li counter electrode replaced after 150 cycles |
+| - | - | - | 150 | 100.0 | % | Initial stable cycling before counter electrode replacement |
 
-### 电池2：SiO||NCM523 全电池
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 前3圈0.3 mA cm⁻²，后续1.0 mA cm⁻²；电压范围2.8-4.2 V；N/P比1.18 | 3.0 | mAh cm⁻² | 350 | 70.0 | % | 初始充电容量3.5 mAh cm⁻² |
-| | | | 300 | - | - | 平均库伦效率99.9% |
+### Battery 2: SiO||NCM523 (LiNi₀.₅Co₀.₂Mn₀.₃O₂) Full-Cell
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| Pre-cycled 1 cycle (0.3 mA cm⁻²); First 3 cycles: 0.3 mA cm⁻², subsequent cycles: 1.0 mA cm⁻²; Voltage: 2.8-4.2 V; N/P ratio: 1.18; SiO mass loading: 4.7 mg cm⁻²; Copolymer amount: 0.7 mg cm⁻²; NCM mass loading: 20 mg cm⁻² | 3.0 | mAh cm⁻² | 350 | 70.0 | % | Reversible commercial-level capacity; Average Coulombic efficiency: 99.9% |
+| - | 3.5 | mAh cm⁻² | - | - | - | Initial charge capacity (discharge capacity = 3.0 mAh cm⁻²) |

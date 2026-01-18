@@ -1,41 +1,37 @@
-# A scalable and long-cycle-life 600 Wh kg−1 solid-state lithium metal pouch cell - 数据提取
-## 电解质组成
-| 组成 | 材料 | 含量/条件 |
-|------|------|----------|
-| 聚合物基体 | PETEA-DAP-HFBMA交联聚合物 | 无明确含量（单体质量分数：PETEA 1.5 wt%、DAP 1.5 wt%、HFBMA 1 wt%） |
-| 单体 | 季戊四醇四丙烯酸酯（PETEA）、二乙基烯丙基磷酸酯（DAP）、2,2,3,4,4,4-六氟丁基甲基丙烯酸酯（HFBMA） | PETEA 1.5 wt%、DAP 1.5 wt%、HFBMA 1 wt%（基于MFN电解质） |
-| 锂盐 | 六氟磷酸锂（LiPF₆） | 1.2 M |
-| 锂盐浓度 | - | 1.2 M（LiPF₆） |
-| 溶剂 | 氟代碳酸乙烯酯（FEC）/甲基（2,2,2-三氟乙基）碳酸酯（FEMC）/碳酸甲乙酯（EMC）/碳酸二甲酯（DMC） | 体积比3:1.5:1.5:4 |
-| 添加剂 | 双(三氟甲烷磺酰)亚胺镁（Mg(TFSI)₂）、硝酸锂（LiNO₃）、六甲基二硅氮烷（HMDS）、二氟草酸硼酸锂（LiDFOB） | Mg(TFSI)₂ 0.02 M、LiNO₃ 65 mM、HMDS 0.1 wt%、LiDFOB 0.36 g/L（BGPL前驱液中） |
-| 引发剂 | 过氧化苯甲酰（BPO） | 0.2 wt% |
-| 交联剂 | 季戊四醇四丙烯酸酯（PETEA） | 1.5 wt%（通过四臂C=C双键实现交联） |
-| 聚合方法 | 原位自由基聚合 | - |
-| 聚合条件 | 扣式电池：65°C真空烘箱4h；软包电池：60°C烘箱1h | - |
+# A scalable and long-cycle-life 600 Wh kg−1 solid-state lithium metal pouch cell - Data Extraction
+## Electrolyte Composition
+| Component | Material | Content/Conditions |
+|-----------|----------|--------------------|
+| Polymer Matrix | PETEA-DAP-HFBMA crosslinked copolymer | Tri-block structure (1:1:1) |
+| Monomer | Pentaerythritol tetraacrylate (PETEA), Diethyl allyl phosphate (DAP), 2,2,3,4,4,4-hexafluorobutyl methacrylate (HFBMA) | PETEA 1.5 wt%, DAP 1.5 wt%, HFBMA 1 wt% |
+| Lithium Salt | Lithium hexafluorophosphate (LiPF₆) | 1.2 M |
+| Lithium Salt Concentration | - | 1.2 M |
+| Solvent | Fluoroethylene carbonate (FEC)/Methyl (2,2,2-trifluoroethyl) carbonate (FEMC)/Ethyl methyl carbonate (EMC)/Dimethyl carbonate (DMC) | v/v/v/v = 3:1.5:1.5:4 |
+| Additives | Magnesium bis(trifluoromethanesulfonimide) (Mg(TFSI)₂), Lithium nitrate (LiNO₃), Hexamethyldisilazane (HMDS) | Mg(TFSI)₂ 0.02 M, LiNO₃ 65 mM, HMDS 0.1 wt% |
+| Initiator | Benzoyl peroxide (BPO) | 0.2 wt% |
+| Crosslinking Agent | Pentaerythritol tetraacrylate (PETEA) | 1.5 wt% (four-armed C=C double bonds for crosslinking) |
+| Polymerization Method | In-situ free radical polymerization | - |
+| Polymerization Conditions | Coin cell: 65 °C, 4 h (vacuum oven); Pouch cell: 60 °C, 1 h (oven) | - |
 
-## 电解质性能
-| 性能指标 | 数值 | 单位 | 测试条件 | 备注 |
-|---------|------|------|---------|------|
-| 离子电导率 | 1.82×10⁻³ | S cm⁻¹ | 25°C | 原文表述为1.82 mS cm⁻¹，已转换为标准单位 |
-| 离子电导率（低温） | 未报道 | - | - | 文献未提及低温电导率数据 |
-| Li⁺迁移数 | 0.64 | - | 25°C | 采用Li箔对称电池测试 |
-| 电化学窗口 | 5.2 | V | 室温 | Li||Ni92浮充测试，泄漏电流稳定 |
-| 阻燃性 | 不可燃 | - | 持续点火5s以上 | 与LP334（易燃）、MFN（易燃）形成对比 |
+## Electrolyte Performance
+| Performance Indicator | Value | Unit | Test Conditions | Remarks |
+|-----------------------|-------|------|-----------------|---------|
+| Ionic Conductivity | 1.82 × 10⁻³ | S cm⁻¹ | 25 °C | Converted from 1.82 mS cm⁻¹ |
+| Ionic Conductivity (Low Temperature) | Not reported | - | - | - |
+| Li⁺ Transference Number | 0.64 | - | 25 °C | Measured with Li foils |
+| Electrochemical Window | ≥5.2 | V | Li||Ni92 floating test | Stable leakage current at 5.2 V |
+| Flame Retardancy | Non-flammable | - | Continuous heating with ignitor for >5 s | No ignition observed |
 
-## 电池性能
-### 电池1：BGPL@Li||Ni92（扣式电池，低载量）
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 0.33 C充电/1 C放电，2.8-4.3 V，25°C，正极载量2.9 mAh cm⁻² | 201.6 | mAh g⁻¹ | 200 | 82.64 | % | GMFN电解质，初始容量从201.6降至166.6 mAh g⁻¹ |
-| 0.33 C充电/1 C放电，2.8-4.3 V，25°C，正极载量2.9 mAh cm⁻² | 未报道 | mAh g⁻¹ | 405 | 81.23 | % | 平均库伦效率99.94%（5-400圈） |
+## Battery Performance
+### Battery 1: Li||Ni92 Coin Cell
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 2.8-4.3 V, 0.33 C charge/1 C discharge (1 C=220 mA g⁻¹), 25 °C | 201.6 | mAh g⁻¹ | 200 | 82.64 | % | Cathode areal capacity: 2.9 mAh cm⁻² |
+| 2.8-4.3 V, 0.33 C charge/1 C discharge (1 C=220 mA g⁻¹), 25 °C | 201.6 | mAh g⁻¹ | 405 | 81.23 | % | Average Coulombic Efficiency: 99.94% (Cycle 5-400) |
+| 2.8-4.3 V, 0.2 C charge/0.5 C discharge (1 C=220 mA g⁻¹), 25 °C | 5.47 | mAh cm⁻² | 100 | 88.84 | % | Cathode areal capacity: 5.5 mAh cm⁻²; Average Coulombic Efficiency: 99.93% (Cycle 5-100) |
 
-### 电池2：BGPL@Li||Ni92（软包电池，11 Ah级）
-| 测试条件 | 初始容量/比能量 | 容量单位 | 循环圈数 | 容量/能量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 0.1 C充电/0.2 C放电，2.8-4.4 V，25°C，E/C=0.85 g Ah⁻¹ | 604.2 | Wh kg⁻¹ | 100 | 92.83 | % | 比能量，不含包装为626.4 Wh kg⁻¹，能量密度1153 Wh L⁻¹ |
-| 0.2 C充电/0.5 C放电，2.8-4.4 V，25°C，E/C=0.85 g Ah⁻¹ | 未报道 | mAh | 100 | 85.71 | % | 厚正极（>5 mAh cm⁻²），多层堆叠结构 |
-
-### 电池3：BGPL@Li||Ni92（扣式电池，高载量）
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 0.2 C充电/0.5 C放电，2.8-4.3 V，25°C，正极载量5.5 mAh cm⁻² | 5.47 | mAh cm⁻² | 100 | 88.84 | % | 初始活化容量（0.1 C/0.1 C），平均库伦效率99.93%（5-100圈） |
+### Battery 2: 11 Ah-Class BGPL@Li||Ni92 Solid-State Pouch Cell
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 2.8-4.4 V, 0.1 C charge/0.2 C discharge, 25 °C, E/C ratio=0.85 g Ah⁻¹ | 11.29 | Ah | 100 | 92.83 | % | Initial specific energy: 604.2 Wh kg⁻¹; Post-cycle specific energy: 560.9 Wh kg⁻¹ |
+| 2.8-4.4 V, 0.2 C charge/0.5 C discharge, 25 °C, E/C ratio=0.85 g Ah⁻¹ | 11.29 | Ah | 100 | 85.71 | % | Cathode: 16 pieces, Anode: 17 pieces; Cell size: 7 cm×10 cm×5.4 mm |

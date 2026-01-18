@@ -1,75 +1,87 @@
 # A scalable and long-cycle-life 600 Wh kg−1 solid-state lithium metal pouch cell
-## 基本信息
-| 项目 | 内容 |
+## Basic Information
+| Item | Content |
 |------|------|
-| **期刊** | Nature Communications |
-| **年份/卷期** | 2025, 16:11695 |
+| **Journal** | Nature Communications |
+| **Year/Volume-Issue** | 2025, 16:11695 |
 | **DOI** | https://doi.org/10.1038/s41467-025-66866-7 |
-| **第一作者** | Xudong Peng, Yang Zhang (共同一作) |
-| **通讯作者** | Hongxu Li, Tianshou Zhao, Yiju Li |
-| **研究机构** | 南方科技大学、大湾区大学、紫金矿业集团股份有限公司、中南大学等 |
-## 研究背景与动机
-现有锂离子电池的比能量（峰值约360 Wh kg⁻¹）难以满足电动飞机（需≥600 Wh kg⁻¹）、电动船舶（需≥1200 Wh L⁻¹）等新兴交通场景的需求。锂金属电池（LMBs）虽具备高比能量潜力，但面临多重挑战：醚类电解质氧化耐受性不足、成本高且易产气；碳酸盐电解质易与锂金属发生寄生反应，导致锂库存消耗和电解质枯竭；原位聚合电解质存在聚合可控性差、副反应等问题；锂金属加工性差、对水汽敏感，规模化生产难度大。因此，亟需开发兼具高比能量、长循环寿命、良好加工性和安全性的锂金属电池技术。
-## 研究方法与创新点
-### 凝胶电解质组成
-| 组成部分 | 具体材料 | 含量/比例 |
+| **First Author** | Xudong Peng, Yang Zhang (co-first authors) |
+| **Corresponding Author** | Hongxu Li, Tianshou Zhao, Yiju Li |
+| **Affiliation** | 1. Department of Mechanical and Energy Engineering, SUSTech Energy Institute for Carbon Neutrality, Southern University of Science and Technology, Shenzhen, China; 2. School of Advanced Engineering, Great Bay University, Dongguan, Guangdong, China; 3. Research Institute of Renewable Energy and Advanced Materials, ZijinMining Group Co Ltd., Changsha, China; 4. Powder Metallurgy Research Institute, Central South University, Changsha, China |
+
+## Research Background and Motivation
+Emerging applications such as electric aircraft, ships, and UAVs demand rechargeable batteries with high specific energy (e.g., ≥600 Wh kg⁻¹ for narrow-body jets), but current Li-ion batteries only reach ~360 Wh kg⁻¹, failing to meet these requirements. Lithium metal batteries (LMBs) show potential for high energy densities, especially when paired with high-Ni cathodes, but face critical challenges:
+1. Ether-based electrolytes lack oxidation tolerance for high-Ni cathodes (x≥0.9) under high voltages (≥4.3 V), corrode Al current collectors, and have poor thermal stability with gassing issues.
+2. Carbonate electrolytes react with Li metal, forming unstable SEI that cannot accommodate Li morphological changes, leading to Li inventory consumption and electrolyte depletion.
+3. In-situ polymerization electrolytes suffer from uncontrollable polymerization (poor consistency) and thermally triggered parasitic reactions.
+4. Li metal has poor processability (soft, sticky, moisture/oxygen-sensitive) and high manufacturing costs, limiting large-scale production of high-energy LMBs.
+
+This research aims to address these issues through a synergistic strategy of electrolyte engineering and Li metal surface modification, enabling scalable, long-cycle-life high-specific-energy LMBs.
+
+## Research Methods and Innovation Points
+### Composition of Gel Electrolyte
+| Component | Specific Material | Content/Ratio |
 |---------|---------|----------|
-| **聚合物基体/单体** | 季戊四醇四丙烯酸酯（PETEA）、二乙基烯丙基磷酸酯（DAP）、2,2,3,4,4,4-六氟丁基甲基丙烯酸酯（HFBMA） | PETEA:1.5 wt%、DAP:1.5 wt%、HFBMA:1 wt% |
-| **锂盐** | 六氟磷酸锂（LiPF₆）、双(三氟甲烷磺酰)亚胺镁（Mg(TFSI)₂） | LiPF₆:1.2 M、Mg(TFSI)₂:0.02 M |
-| **溶剂** | 氟代碳酸乙烯酯（FEC）、氟代碳酸甲乙酯（FEMC）、碳酸甲乙酯（EMC）、碳酸二甲酯（DMC） | FEC:FEMC:EMC:DMC = 3:1.5:1.5:4（v/v/v/v） |
-| **添加剂** | 硝酸锂（LiNO₃）、六甲基二硅氮烷（HMDS）、二氟草酸硼酸锂（LiDFOB） | LiNO₃:65 mM、HMDS:0.1 wt%、LiDFOB:少量 |
-| **引发剂/交联剂** | 过氧化苯甲酰（BPO） | 0.2 wt% |
-| **聚合条件** | 扣式电池：65°C真空烘箱4小时；软包电池：60°C烘箱1小时 | - |
-### 聚合方法
-- **聚合类型**：原位自由基聚合
-- **聚合条件**：温度60-65°C，时间1-4小时，热引发
-### 主要创新点
-1. 提出协同策略：结合碳酸盐基凝胶固态电解质（GMFN）与双连续梯度聚合物层改性锂金属（BGPL@Li），同时解决电解质稳定性、锂沉积均匀性和加工性问题。
-2. 原位凝胶化技术：通过PETEA-DAP-HFBMA交联聚合物骨架锚定游离碳酸盐溶剂，抑制电解质分解和寄生反应，提升高电压稳定性（可达5.2 V）。
-3. 双连续梯度聚合物层（BGPL）：由聚三噁烷（PTX）和聚偏氟乙烯-六氟丙烯共聚物（PVDF-co-HFP）组成，兼具亲锂性、高离子传导和耐湿氧性，实现锂金属无损伤加工和长期储存。
-4. 贫电解质设计：在E/C比0.85 g Ah⁻¹条件下实现长循环，突破高比能量电池对电解质用量的依赖，同时提升安全性（阻燃、无热失控）。
-## 主要结果
-### 电解质物理化学性能
-| 性能指标 | 测试条件 | 数值 | 单位 |
+| **Polymer Matrix/Monomer** | Pentaerythritol tetraacrylate (PETEA), diethyl allyl phosphate (DAP), 2,2,3,4,4,4-hexafluorobutyl methacrylate (HFBMA) | PETEA: 1.5 wt%, DAP: 1.5 wt%, HFBMA: 1 wt% |
+| **Lithium Salt** | LiPF₆, Mg(TFSI)₂, LiNO₃, LiDFOB | 1.2 M LiPF₆, 0.02 M Mg(TFSI)₂, 65 mM LiNO₃, trace LiDFOB (in BGPL precursor) |
+| **Solvent** | FEC/FEMC/EMC/DMC | v/v/v/v = 3:1.5:1.5:4 |
+| **Additive** | Hexamethyldisilazane (HMDS) | 0.1 wt% |
+| **Initiator/Crosslinking Agent** | Benzoyl peroxide (BPO) | 0.2 wt% |
+| **Polymerization Conditions** | Pouch cells: 60 °C for 1 h; Coin cells: 65 °C for 4 h (vacuum oven) |
+
+### Polymerization Method
+- **Polymerization Type**: In-situ Radical Polymerization
+- **Polymerization Conditions**: Temperature (60-65 °C), Time (1-4 h), Thermal Initiation (BPO)
+
+### Key Innovation Points
+1. Synergistic strategy integrating carbonate-based gel-solid-state electrolyte (GMFN) and bicontinuous gradient polymer layer-modified Li (BGPL@Li), addressing electrolyte instability, Li metal reactivity, and processability simultaneously.
+2. In-situ gelation of GMFN: The crosslinked polymer backbone (PETEA-DAP-HFBMA) confines unstable carbonate solvents, suppresses parasitic reactions, and forms F-rich SEI/P-rich CEI, enhancing electrolyte stability and flame retardancy.
+3. Multifunctional BGPL@Li: Constructed from TX (forms lithophilic PTX), PVDF-co-HFP (hydrophobic, film-forming), and LiDFOB, improving Li plating/stripping reversibility (CE up to 99.66%), moisture/oxygen resistance, and Li processability (wrinkle-resistant, scalable production).
+
+## Main Results
+### Physicochemical Properties of Electrolyte
+| Performance Indicator | Test Conditions | Value | Unit |
 |---------|---------|------|------|
-| **离子电导率** | 25°C | 1.82 | mS cm⁻¹ |
-| **离子电导率** | -40°C | - | S cm⁻¹（未报道） |
-| **Li⁺迁移数** | - | 0.64 | - |
-| **电化学窗口** | - | 5.2 | V |
-| **阻燃性** | 持续点火5秒 | 不可点燃 | - |
-| **机械性能** | - | 支撑锂箔，防褶皱折叠 | - |
-### 电池性能数据
-#### Ni92||BGPL@Li 扣式电池（GMFN电解质）
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
+| **Ionic Conductivity** | 25°C | 1.82×10⁻³ | S cm⁻¹ |
+| **Ionic Conductivity** | -40°C | Not reported | S cm⁻¹ |
+| **Li⁺ Transference Number** | 25°C | 0.64 | - |
+| **Electrochemical Window** | - | 5.2 | V |
+| **Flame Retardancy** | Continuous ignition for >5 s | Non-flammable | - |
+| **Mechanical Properties** | - | BGPL@Li: Wrinkle-resistant, foldable, no deformation during assembly | - |
+
+### Battery Performance Data
+#### Ni92||Li Metal Battery (BGPL@Li, GMFN Electrolyte)
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
 |---------|---------|---------|-----------|------|
-| 0.33 C充电/1 C放电，25°C，2.8-4.3 V | 201.6 mAh g⁻¹ | 405次 | 81.23% | 平均库仑效率99.94% |
-| 0.2 C充电/0.5 C放电，25°C，高载量电极（5.5 mAh cm⁻²） | 5.47 mAh cm⁻² | 100次 | 88.84% | 平均库仑效率99.93% |
-#### Li||Cu 不对称电池
-| 电流密度 | 面积容量 | 稳定循环时间 | 过电位 | 备注 |
+| 25°C, 0.33C charge/1C discharge (1C=220 mA g⁻¹), 2.8-4.3 V | ~201.6 mAh g⁻¹ | 405 cycles | 81.23% | Average CE=99.94% |
+| 25°C, 0.1C charge/0.2C discharge, 2.8-4.4 V (11 Ah pouch cell) | 11.29 Ah (specific energy: 604.2 Wh kg⁻¹) | 100 cycles | 92.83% (energy retention) | Excluding packaging: 626.4 Wh kg⁻¹; E/C=0.85 g Ah⁻¹ |
+| 25°C, 0.2C charge/0.5C discharge (high-loading Ni92: 5.5 mAh cm⁻²) | 5.47 mAh cm⁻² | 100 cycles | 88.84% | Average CE=99.93% |
+
+#### Li||Li Symmetric Battery (BGPL@Li)
+| Current Density | Areal Capacity | Stable Cycling Time | Overpotential | Remarks |
 |---------|---------|------------|--------|------|
-| 0.5 mA cm⁻² | 1 mAh cm⁻² | - | - | MFN电解质下CE 99.66%；GMFN电解质下CE 99.42% |
-#### 11 Ah级软包电池（GMFN-BGPL@Li）
-| 测试条件 | 初始比能量 | 循环寿命 | 能量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 0.1 C充电/0.2 C放电，25°C，2.8-4.4 V | 604.2 Wh kg⁻¹（1153 Wh L⁻¹） | 100次 | 92.83% | 不含包装材料626.4 Wh kg⁻¹ |
-| 0.2 C充电/0.5 C放电，25°C | - | 100次 | 85.71%（容量保持率） | 高载量正极（5.67 mAh cm⁻²） |
-### 特殊性能
-- **宽温性能**：未明确报道低温/高温具体数据，主要聚焦室温性能优化
-- **安全性**：GMFN电解质不可燃；钉刺测试（25% SOC和100% SOC）无热失控、无爆炸；ARC测试显示热 runaway延迟，自热速率稳定在0.6°C min⁻¹
-- **其他特色性能**：BGPL@Li耐湿氧性优异，露点-30°C下储存240小时活性锂保留率>96%；可规模化加工，已实现软包电池模组驱动无人机
-## 机理分析与表征
-1. **MD模拟**：证实聚合物骨架与碳酸盐溶剂间存在强结合能（高于溶剂分子间相互作用），抑制溶剂扩散，形成更多离子对（PF₆⁻与Li⁺配位数从0.18提升至0.22）。
-2. **Raman/NMR表征**：表明聚合后游离非氟化碳酸盐分子减少，Li⁺溶剂化结构优化，提升电解质氧化耐受性。
-3. **XPS/TEM/TOF-SIMS**：GMFN电解质诱导形成薄且富含LiF、PO₃⁻的无机相SEI（Li金属表面）和CEI（Ni92正极表面，厚度仅2.3 nm，远低于LP334电解质的14.5 nm），抑制过渡金属溶解和界面副反应。
-4. **CT表征**：循环后GMFN-BGPL@Li软包电池形貌平整（厚度2.14 mm），无明显膨胀，而LP334-裸Li电池厚度不均（2.74 mm），应力分布不均。
-5. **电化学表征（EIS/浮充测试）**：GMFN电解质界面阻抗增长缓慢，4.7 V以上浮充漏电流小，证实高电压稳定性。
-## 结论与意义
-本研究通过电解质工程（原位聚合GMFN凝胶电解质）与锂金属表面改性（BGPL层）的协同设计，成功制备出比能量604.2 Wh kg⁻¹、100循环能量保持率92.83%的11 Ah级锂金属软包电池。核心结论包括：① 聚合物骨架锚定溶剂可抑制碳酸盐电解质与锂金属的寄生反应；② BGPL层实现锂金属无损伤加工和长周期稳定沉积；③ 贫电解质条件下的协同优化解决了高比能量电池的循环寿命与安全性矛盾。该研究突破了现有锂金属电池在比能量、循环稳定性和规模化生产上的瓶颈，为电动飞机、船舶、无人机等新兴交通领域提供了实用化的高能量密度储能方案，推动了锂金属电池从实验室走向工业应用。
----
-## 质量检查清单
-- [✓] 所有表格中的数值单位是否正确
-- [✓] 数值是否准确（与原文核对）
-- [✓] 化学式是否正确（如LiPF₆、Mg(TFSI)₂等）
-- [✓] 电池类型描述是否清晰
-- [✓] 循环寿命是否标注了测试条件
-- [✓] 创新点是否准确提炼
+| 0.5 mA cm⁻² | 1.0 mAh cm⁻² | - | Lower than bare Li | Reduced R_EEI and R_ct; enhanced exchange current density |
+
+### Special Performance
+- **Wide-Temperature Performance**: Not specifically reported; stable at room temperature (25°C) for long cycles.
+- **Safety**: Flame-retardant GMFN electrolyte; nail puncture test (25% SOC and fully charged) shows no thermal runaway, smoke, or open flames; ARC test: delayed thermal runaway (141-190 °C) with stabilized self-heating (0.6 °C min⁻¹).
+- **Other Characteristic Performance**: Scalable production (roll-to-roll tape casting, automatic stacking); BGPL@Li retains 96% active Li after 240 h storage at -30 °C dew point; low electrolyte depletion under lean conditions (E/C=0.85 g Ah⁻¹).
+
+## Mechanism Analysis and Characterization
+- **MD Simulation**: Revealed enhanced binding energy between polymer backbone (PETEA-DAP-HFBMA) and carbonate solvents, retarding solvent diffusion and suppressing electrolyte decomposition.
+- **Raman/NMR/WAXS**: Confirmed reduced free non-fluorinated carbonates, enhanced Li⁺-PF₆⁻ interaction, and polymer-solvent dipole-dipole interaction, improving electrolyte oxidation resistance.
+- **XPS/TEM/TOF-SIMS**: GMFN forms thin (2.3 nm) P-rich CEI and F-rich SEI; BGPL@Li regulates uniform, dense Li deposition (no dendrites) and protects Li from moisture/oxygen.
+- **SEM/CT**: BGPL@Li has uniform 2.1 μm thickness, seamless contact with Li; cycled pouch cells show flat morphology (thickness: 2.14 mm) vs. 2.74 mm for bare Li/LP334.
+- **GC-MS/EIS**: GMFN reduces gas generation (CO₂, CO, O₂ undetectable); EIS shows stable interfaces with slower impedance growth over long cycles.
+- **DSC/ARC**: GMFN has good thermal stability; BGPL@Li improves Li processability and moisture/oxygen resistance.
+
+## Conclusions and Significance
+### Core Conclusions
+1. The synergistic GMFN electrolyte and BGPL@Li strategy effectively addresses key challenges of high-energy LMBs: GMFN confines solvents, suppresses parasitic reactions, and forms stable SEI/CEI; BGPL@Li enhances Li reversibility, processability, and environmental tolerance.
+2. The 11 Ah pouch cell achieves a specific energy of 604.2 Wh kg⁻¹ (626.4 Wh kg⁻¹ excluding packaging) with 92.83% energy retention after 100 cycles, and the coin cell maintains 81.23% capacity after 405 cycles (average CE=99.94%).
+3. Electrolyte depletion is the decisive factor for pouch cell failure within 100 cycles; GMFN significantly decelerates electrolyte consumption under lean conditions (E/C=0.85 g Ah⁻¹).
+
+### Significance and Application Value
+1. **Scientific Significance**: Establishes a paradigm of integrating electrolyte engineering and Li metal modification for high-specific-energy LMBs, clarifying the mechanism of polymer-solvent interaction and interfacial stability.
+2. **Practical Value**: Enables scalable production of LMBs with low cost, simple process (compatible with existing battery lines), and high safety, meeting the requirements of electric aircraft, ships, and UAVs.
+3. **Field Impact**: Breaks the specific energy bottleneck of LMBs (surpassing 600 Wh kg⁻¹) and provides a feasible solution for the commercialization of high-energy-density electrochemical energy storage systems.

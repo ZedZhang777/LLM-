@@ -1,75 +1,96 @@
 # Puzzle-like molecular assembly of nonflammable solid-state polymer electrolytes for safe and high-voltage lithium metal batteries
-## 基本信息
-| 项目 | 内容 |
+## Basic Information
+| Item | Content |
 |------|------|
-| **期刊** | Nature Communications |
-| **年份/卷期** | 2025, 16:8494 |
+| **Journal** | Nature Communications |
+| **Year/Volume-Issue** | 2025, 16:8494 |
 | **DOI** | https://doi.org/10.1038/s41467-025-63439-6 |
-| **第一作者** | Junjie Chen |
-| **通讯作者** | Yiju Li、Tianshou Zhao |
-| **研究机构** | 1. 香港科技大学机械及航空航天工程学系；2. 南方科技大学机械与能源工程系；3. 南方科技大学碳中和能源研究院 |
-## 研究背景与动机
-商用锂离子电池面临两大核心问题：一是基于液态电解液的电池存在易燃爆炸风险，安全性不足；二是石墨负极限制电池比能量通常低于250 Wh kg⁻¹，无法满足电动汽车等领域对高能量密度的需求。锂金属负极因高理论比容量（~3860 mAh g⁻¹）和低还原电位（-3.04 V vs. 标准氢电极），被认为是提升电池能量密度的理想选择，但现有商用液态电解液难以同时兼容锂金属负极和高压正极。
+| **First Author** | Junjie Chen |
+| **Corresponding Author** | Yiju Li, Tianshou Zhao |
+| **Affiliation** | 1.Department of Mechanical and Aerospace Engineering, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China; 2.Department of Mechanical and Energy Engineering, Southern University of Science and Technology, Shenzhen, China; 3.SUSTech Energy Institute for Carbon Neutrality, Southern University of Science and Technology, Shenzhen, China |
 
-固态聚合物电解质（SPEs）虽具有漏液风险低、柔韧性好、易加工等优势，且原位聚合策略可降低界面阻抗、兼容现有电池工业体系，但仍面临室温离子电导率低、Li⁺迁移数小、高压稳定性差、与锂金属负极兼容性不佳及易燃等挑战。现有改性策略（如添加无机填料、共混有机材料等）难以同时实现优异的锂盐解离能力、高Li⁺迁移数、稳定的锂金属负极性能、高压稳定性和卓越阻燃性，因此亟需开发一种简便可扩展的制备策略以提升聚碳酸酯基固态电解质的综合性能。
-## 研究方法与创新点
-### 凝胶电解质组成
-| 组成部分 | 具体材料 | 含量/比例 |
+## Research Background and Motivation
+Commercial liquid electrolyte-based lithium-ion batteries (LIBs) face critical issues of flammability and explosiveness. Meanwhile, graphite-based anodes limit their specific energy to below 250 Wh kg⁻¹, failing to meet the growing demands for electric vehicles and other applications. Lithium metal anodes (LMAs) are ideal due to their high theoretical specific capacity (3860 mAh g⁻¹) and low reduction potential (-3.04 V vs. SHE), but commercial liquid electrolytes are incompatible with both LMAs and high-voltage cathodes.
+
+Solid-state polymer electrolytes (SPEs) offer solutions with low leakage risk, flexibility, and processability, especially via in situ polymerization for reduced interfacial resistance. However, existing SPEs suffer from low ionic conductivity (25°C), low Li⁺ transference number (tLi⁺), narrow voltage window, poor compatibility with LMAs, and high flammability. Polycarbonate-based SPEs, despite advantages with Li⁺ coordination and high-voltage compatibility, still face challenges in lithium salt dissociation, low tLi⁺, LMA instability, and flammability. Existing modification strategies (inorganic fillers, blending, etc.) fail to simultaneously address all these issues, necessitating a facile and scalable preparation method for high-performance SPEs.
+
+## Research Methods and Innovation Points
+### Composition of Gel Electrolyte
+| Component | Specific Material | Content/Ratio |
 |---------|---------|----------|
-| **聚合物基体/单体** | 乙烯基碳酸乙烯酯（VEC）、2,2,3,3,4,4,4-七氟丁基甲基丙烯酸酯（HFBMA）、磷酸三烯丙酯（TAP） | n(VEC):n(HFBMA):n(TAP)=1:0.1:0.15 |
-| **锂盐** | 双(三氟甲烷磺酰)亚胺锂（LiTFSI） | 20%（相对于所有单体总质量） |
-| **溶剂** | - | - |
-| **添加剂** | - | - |
-| **引发剂/交联剂** | 偶氮二异丁腈（AIBN） | 1.0 wt%（相对于VEC、HFBMA、TAP总和） |
-| **聚合条件** | 预聚合：65°C、2 h；后续聚合：70°C、6 h | - |
-### 聚合方法
-- **聚合类型**：原位自由基聚合
-- **聚合条件**：预聚合温度65°C、时间2 h；后续聚合温度70°C、时间6 h，以Al₂O₃涂层聚乙烯隔膜为支撑骨架
-### 主要创新点
-1. 提出类拼图分子组装策略，将三种具有特定功能的分子片段（VEC、HFBMA、TAP）通过原位自由基聚合拼接，实现各组分功能协同，同时解决固态聚合物电解质的多重性能瓶颈。
-2. 首次在聚碳酸酯基电解质中同时实现高离子电导率（25°C时0.432 mS cm⁻¹）、高Li⁺迁移数（0.70）、宽电化学窗口（5.15 V）、不燃性及与锂金属负极/高压正极的良好兼容性。
-3. 制备工艺简便可扩展，与现有液态电解液电池工业体系兼容，为固态锂金属电池的规模化生产提供可能。
-## 主要结果
-### 电解质物理化学性能
-| 性能指标 | 测试条件 | 数值 | 单位 |
-|---------|---------|------|------|
-| **离子电导率** | 25°C | 4.32×10⁻⁴ | S cm⁻¹ |
-| **离子电导率** | -40°C | - | S cm⁻¹ |
-| **Li⁺迁移数** | 25°C | 0.70 | - |
-| **电化学窗口** | 25°C | 5.15 | V |
-| **阻燃性** | 明火接触 | 不燃 | - |
-| **机械性能** | - | 表面平整均匀（最大高度差50 nm），以Al₂O₃涂层PE隔膜增强 | - |
-### 电池性能数据
-#### Li||LiNi₀.₆Co₀.₂Mn₀.₂O₂（NCM622）电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 30°C、0.5 C、2.5-4.3 V | 150 mAh g⁻¹ | 300次 | 73.5% | - |
-| 30°C、高载量15.8 mg cm⁻²、2.5-4.3 V | - | 100次以上 | - | 稳定循环 |
-#### Li||Li对称电池
-| 电流密度 | 面积容量 | 稳定循环时间 | 过电位 | 备注 |
-|---------|---------|------------|--------|------|
-| 0.2 mA cm⁻² | 0.2 mAh cm⁻² | >2600 h | 稳定 | 无短路 |
-| 0.1 mA cm⁻² | - | 600 h | 45 mV | 连续锂沉积/剥离 |
-| 0.3 mA cm⁻² | - | 600 h | 145 mV | 连续锂沉积/剥离 |
-| 0.5 mA cm⁻² | - | 600 h | 413 mV | 连续锂沉积/剥离 |
-#### Li||LiFePO₄（LFP）电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 100°C、1 C（160 mA g⁻¹） | - | >120次 | - | 稳定循环 |
-#### 2.6-Ah Li||LiNi₀.₈Co₀.₁Mn₀.₁O₂（NCM811）软包电池
-| 测试条件 | 比能量 | 备注 |
-|---------|---------|------|
-| 30°C | 349 Wh kg⁻¹ | 基于28.2 g软包电池总质量 |
-### 特殊性能
-- **宽温性能**：在100°C高温下，Li||LFP电池可稳定循环120次，展现出优异的高温稳定性；低温性能未明确报道。
-- **安全性**：电解质本身不燃，软包电池通过针刺测试（无烟雾、火焰、热失控）、加热实验（加热5分钟无肿胀，温度分布均匀）、加速量热法（ARC）测试（热失控触发温度244.4°C，高于商用液态电解液电池55.5°C），安全性显著优于商用液态电解液电池。
-- **其他特色性能**：临界电流密度达1.3 mA cm⁻²，具有高电流耐受性；Li||NCM622软包电池（正极载量12.0 mg cm⁻²）在无外部压力下可稳定循环30次以上。
-## 机理分析与表征
-1. 结构表征：通过¹³C NMR、¹⁹F和³¹P固体NMR、FTIR、XPS证实VEC、HFBMA、TAP三种片段成功聚合形成IWSWN-SPE，且各组分均匀分散；TGA测试表明IWSWN-SPE中未反应VEC含量仅23%（低于PVEC的54%），呈干燥态。
-2. 离子传输机理：Raman光谱和⁷Li ssNMR显示，HFBMA和TAP的引入促进LiTFSI解离，降低Li⁺与聚合物链的结合能（-3.40 eV vs PVEC的-3.75 eV），减少Li⁺传输能垒；MD模拟揭示TFSI⁻与IWSWN-SPE主链相互作用更强（结合能-2.11 eV vs PVEC的-1.51 eV），限制TFSI⁻迁移，从而提升Li⁺迁移数。
-3. 界面稳定性机理：SEM、Cryo-TEM、TOF-SIMS和XPS表征表明，IWSWN-SPE与锂金属负极形成无机富锂（LiF、LiPO₃、Li₂CO₃等）的双层SEI膜，致密均匀（抑制锂枝晶生长）；与NCM正极形成薄而均匀（~2 nm）的CEI膜，富含LiF和磷基无机组分，减少过渡金属溶解和相转变，提升界面稳定性。
-4. 高压与阻燃机理：DFT计算显示IWSWN-SPE具有更低的HOMO能级（-8.04 eV）和更高的LUMO能级（-0.45 eV），赋予其优异的氧化还原稳定性；TAP片段通过捕获H·和OH·实现阻燃功能，HFBMA片段则增强高压耐受性。
-## 结论与意义
-本研究通过类拼图分子组装策略，成功制备了兼具高离子电导率、高Li⁺迁移数、宽电压窗口、不燃性和良好界面兼容性的固态聚合物电解质（IWSWN-SPE）。该电解质通过三种功能分子片段的协同作用，解决了传统固态聚合物电解质的多重性能缺陷，使得Li||NCM622电池可稳定循环300次，高载量（15.8 mg cm⁻²）下仍能可靠循环，2.6-Ah NCM811软包电池实现349 Wh kg⁻¹的高比能量，且通过多项安全测试验证其优异安全性。
+| **Polymer Matrix/Monomer** | Vinyl Ethylene Carbonate (VEC); 2,2,3,3,4,4,4-Heptafluorobutyl Methacrylate (HFBMA); Triallyl Phosphate (TAP) | n(VEC):n(HFBMA):n(TAP) = 1:0.1:0.15 |
+| **Lithium Salt** | Lithium Bis(trifluoromethanesulfonyl)imide (LiTFSI) | 20 wt% of total monomer mass (optimal for ionic conductivity) |
+| **Solvent** | None (solid-state electrolyte) | - |
+| **Additive** | None | - |
+| **Initiator/Crosslinking Agent** | Azobisisobutyronitrile (AIBN) | 1.0 wt% relative to the sum of VEC, HFBMA, and TAP |
+| **Polymerization Conditions** | Pre-polymerization: 65°C for 2 h; Further polymerization: 70°C for 6 h | - |
 
-该研究为高性能固态电解质的设计提供了新范式，其简便可扩展的制备工艺与现有电池工业体系兼容，为高比能量、高安全性锂金属电池的实用化奠定了重要基础，对推动电动汽车、储能等领域的发展具有重要意义。
+### Polymerization Method
+- **Polymerization Type**: In-situ Radical Polymerization
+- **Polymerization Conditions**: Pre-polymerization temperature 65°C, time 2 h; Further polymerization temperature 70°C, time 6 h; Initiation by AIBN
+
+### Key Innovation Points
+1. Proposed a **puzzle-like molecular assembly strategy** to splice three functional molecular fragments (VEC, HFBMA, TAP) via in situ radical polymerization, integrating their respective advantages (Li⁺ conduction, high-voltage tolerance, flame retardancy) into a single SPE (IWSWN-SPE).
+2. Introduced fluorine-rich (HFBMA) and phosphorus-rich (TAP) segments to enhance anion (TFSI⁻) affinity, promote LiTFSI dissociation, and restrict TFSI⁻ migration, achieving a high tLi⁺ (0.70) and ionic conductivity (0.432 mS cm⁻¹ at 25°C).
+3. Realized simultaneous improvements in **high-voltage stability (5.15 V)**, **nonflammability**, **wide-temperature performance (up to 100°C)**, and **electrode compatibility** via intrinsic molecular properties and formation of robust inorganic-rich interphases (SEI/CEI).
+
+## Main Results
+### Physicochemical Properties of Electrolyte
+| Performance Indicator | Test Conditions | Value | Unit |
+|---------|---------|------|------|
+| **Ionic Conductivity** | 25°C | 4.32×10⁻⁴ | S cm⁻¹ |
+| **Ionic Conductivity** | -40°C | No data | S cm⁻¹ |
+| **Li⁺ Transference Number** | 25°C | 0.70 | - |
+| **Electrochemical Window** | 25°C, scan rate 1 mV s⁻¹ | 5.15 | V |
+| **Flame Retardancy** | Direct flame exposure | Nonflammable | - |
+| **Mechanical Properties** | Reinforced by Al₂O₃-coated PE separator | Flat, uniform surface; smooth (max height difference 50 nm) | - |
+
+### Battery Performance Data
+#### Li||LiNi₀.₆Co₀.₂Mn₀.₂O₂ (NCM622) Battery
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
+|---------|---------|---------|-----------|------|
+| 30°C, 2.5-4.3 V, 0.5 C (1 C=180 mA g⁻¹) | 150 mAh g⁻¹ | 300 cycles | 73.5% | - |
+| 30°C, 2.5-4.3 V, high mass loading (15.8 mg cm⁻²) | - | >100 cycles | - | Stable operation without obvious decay |
+| 30°C, 0.1 C | 173.9 mAh g⁻¹ | - | - | Rate performance test |
+| 30°C, 1.0 C | 118.4 mAh g⁻¹ | - | - | Rate performance test |
+
+#### Li||Li Symmetric Battery
+| Current Density | Areal Capacity | Stable Cycling Time | Overpotential | Remarks |
+|---------|---------|------------|--------|------|
+| 0.2 mA cm⁻² | 0.2 mAh cm⁻² | >2600 h | Low and stable | No short circuit or overpotential increase |
+| 0.1 mA cm⁻² | - | 600 h | 45 mV | Stable Li plating/stripping |
+| 0.5 mA cm⁻² | - | 600 h | 413 mV | Stable Li plating/stripping |
+| 1.3 mA cm⁻² | - | - | - | Critical current density (CCD) |
+
+#### Li||LiFePO₄ (LFP) Battery
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
+|---------|---------|---------|-----------|------|
+| 100°C, 1 C (1 C=160 mA g⁻¹) | - | >120 cycles | - | Stable cycling; PVEC-based cell fails after 2 cycles |
+
+#### 2.6-Ah Li||LiNi₀.₈Co₀.₁Mn₀.₁O₂ (NCM811) Pouch Cell
+| Test Conditions | Specific Energy | Cycle Performance | Remarks |
+|---------|---------|---------|-----------|
+| Based on 28.2 g pouch cell | 349 Wh kg⁻¹ | - | High energy density for practical applications |
+
+### Special Performance
+- **Wide-Temperature Performance**: Stable cycling of Li||LFP cell for over 120 cycles at 100°C; activation energy (Eₐ=0.387 eV) lower than PVEC (0.416 eV), indicating favorable Li⁺ conduction at varied temperatures.
+- **Safety**: Nonflammable (no ignition under direct flame); passed nail penetration test (1.0-Ah NCM811 pouch cell, no smoke/fire/thermal runaway); accelerated rate calorimetry (ARC) showed higher thermal stability (T₁=160.8°C, T₂=244.4°C) than commercial liquid electrolyte (T₁=139.7°C, T₂=188.9°C); no leakage/sparks/explosions under twisting/cutting.
+- **Other Characteristic Performance**: High cathode mass loading compatibility (15.8 mg cm⁻², among the highest reported for polymer-based LMBs); stable operation of NCM622 pouch cell for over 30 cycles without external pressure.
+
+## Mechanism Analysis and Characterization
+Key characterization methods and mechanistic findings:
+1. **Structural Confirmation**: ¹³C NMR, ¹⁹F/³¹P solid-state NMR (confirmed incorporation of HFBMA/TAP segments), FTIR (negligible C=C peak indicating complete polymerization), TGA (residual VEC content 23% vs. 54% for PVEC).
+2. **Ion Transport Mechanism**: Raman spectroscopy (shift of TFSI⁻ peak confirms high LiTFSI dissociation), ⁷Li ssNMR (higher Li⁺ mobility), MD simulations (diverse Li⁺ coordination environments via C=O (VEC) and P=O (TAP) groups; weaker Li⁺-polymer binding energy (-3.40 eV vs. -3.75 eV for PVEC) reduces transport barriers), DFT calculations (low Li⁺ dissociation energy 0.76 eV vs. 2.97 eV for PVEC).
+3. **Interphase Formation**: Cryo-TEM, XPS, TOF-SIMS (SEI: dual-layer structure with inorganic-rich inner layer (LiF, LiPO₃) and thin organic outer layer; CEI: thin (~2 nm) and uniform, rich in LiF/phosphate). These interphases suppress Li dendrite growth, reduce side reactions, and inhibit transition metal (TM) dissolution.
+4. **High-Voltage Stability**: DFT calculations (lowest HOMO energy -8.04 eV enhances oxidative stability), linear sweep voltammetry (LSV) and electrochemical floating test (stable at 4.9 V, leakage current ~5 μA).
+
+## Conclusions and Significance
+### Core Conclusions
+- The puzzle-like molecular assembly strategy successfully integrates three functional segments (VEC, HFBMA, TAP) into a high-performance SPE (IWSWN-SPE), simultaneously achieving high ionic conductivity (0.432 mS cm⁻¹), high tLi⁺ (0.70), wide electrochemical window (5.15 V), nonflammability, and excellent electrode compatibility.
+- IWSWN-SPE enables stable cycling of high-voltage LMBs (300 cycles for NCM622, 120 cycles for LFP at 100°C) and high-energy-density pouch cells (349 Wh kg⁻¹ for 2.6-Ah NCM811), with superior safety verified by multiple tests.
+- The fluorine/phosphorus-rich segments promote LiTFSI dissociation, restrict TFSI⁻ migration, and form robust inorganic-rich interphases, which are key to the enhanced performance.
+
+### Significance and Application Value
+- Addresses critical limitations of existing SPEs (low conductivity, poor high-voltage tolerance, flammability) and bridges the gap between lab-scale research and practical applications.
+- Provides a modular design strategy for customizing polymer electrolytes by splicing functional molecular fragments, offering new insights for advanced electrolyte development.
+- The high safety, high energy density, and processability of IWSWN-SPE make it promising for next-generation high-specific-energy lithium metal batteries in electric vehicles, energy storage systems, and other fields.

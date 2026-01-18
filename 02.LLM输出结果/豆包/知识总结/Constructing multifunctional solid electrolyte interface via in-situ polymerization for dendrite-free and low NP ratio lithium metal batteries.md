@@ -1,75 +1,102 @@
 # Constructing multifunctional solid electrolyte interface via in-situ polymerization for dendrite-free and low N/P ratio lithium metal batteries
-## 基本信息
-| 项目 | 内容 |
+## Basic Information
+| Item | Content |
 |------|------|
-| **期刊** | Nature Communications |
-| **年份/卷期** | 2021, 12, 186 |
+| **Journal** | Nature Communications |
+| **Year/Volume-Issue** | 2021, 12:186 |
 | **DOI** | https://doi.org/10.1038/s41467-020-20339-1 |
-| **第一作者** | Dan Luo |
-| **通讯作者** | Zhongwei Chen、Liwei Chen、Xin Wang |
-| **研究机构** | 华南师范大学、滑铁卢大学、中国科学院苏州纳米技术与纳米仿生研究所、加拿大光源中心、厦门大学、上海交通大学等 |
-## 研究背景与动机
-锂金属电池（LMB）因锂金属的高比容量（3860 mAh g⁻¹）和低还原电位（-3.04 V vs 标准氢电极）成为高能量密度储能系统的理想选择，但实际应用受限于关键技术瓶颈：一是锂金属与电解液自发反应形成的SEI层不稳定、机械性能差，在锂沉积/剥离过程中易破裂积累，导致极化增大；二是电流/离子分布不均引发锂枝晶生长，造成库仑效率低、循环寿命短及安全隐患；三是在低N/P比（≤1.5）、贫电解液、高温（≥60°C）等实际应用条件下，电解液“干涸”、容量衰减等问题被放大。现有方案中，人工SEI工艺复杂且界面电阻大，电解质添加剂易导致锂枝晶择优取向生长，难以构建兼具稳健结构、优异机械性能、低电解液消耗及调控Li⁺传输功能的多功能SEI，因此亟需开发新型SEI构建策略。
-## 研究方法与创新点
-### 凝胶电解质组成
-| 组成部分 | 具体材料 | 含量/比例 |
-|---------|---------|----------|
-| **聚合物基体/单体** | 咖啡酸锂（CA-Li，通过CA原位聚合形成） | - |
-| **锂盐** | 双三氟甲烷磺酰亚胺锂（LiTFSI）、硝酸锂（LiNO₃） | LiTFSI浓度1 M；LiNO₃为2 wt% |
-| **溶剂** | 1,3-二氧戊环（DOL）、二甲氧基乙烷（DME） | v/v=1:1 |
-| **添加剂** | 咖啡酸（CA） | 0.1-1 wt%（优选1 wt%） |
-| **引发剂/交联剂** | 锂金属（Li） | - |
-| **聚合条件** | 室温搅拌24小时制备电解质，原位聚合形成SEI | - |
-### 聚合方法
-- **聚合类型**：原位阴离子聚合
-- **聚合条件**：室温，锂金属引发CA中C=C双键断裂，无需额外引发剂，电解质制备需搅拌24小时
-### 主要创新点
-1. 设计含邻苯二酚和丙烯酸基团的咖啡酸（CA）作为电解质添加剂，利用邻苯二酚与锂金属的强吸附作用及丙烯酸基团的阴离子聚合活性，通过原位聚合构建多功能SEI，实现多重功能协同。
-2. 形成有机-无机杂化SEI结构：有机相（CA-Li聚合物）提供柔韧性和强界面相互作用，无机相（LiₓNOᵧ、LiF等）增强机械强度，兼具调控Li⁺传输、抑制电解液分解和锂枝晶生长的功能。
-3. 首次在低N/P比（~1.5）、贫电解液（6 g Ah⁻¹）、高温（60°C）等实际应用条件下，实现锂金属电池超长时间循环（超8500小时），且适用于Li-S和Li-LiFePO₄全电池体系，推进LMB实用化。
-## 主要结果
-### 电解质物理化学性能
-| 性能指标 | 测试条件 | 数值 | 单位 |
-|---------|---------|------|------|
-| **离子电导率** | 25°C | - | S cm⁻¹ |
-| **离子电导率** | -40°C | - | S cm⁻¹ |
-| **Li⁺迁移数** | - | - | - |
-| **电化学窗口** | - | >4 | V（CA氧化峰位于4V以上） |
-| **阻燃性** | - | - | - |
-| **机械性能** | 循环后SEI | 6.61 | GPa（平均杨氏模量，为锂金属的3倍） |
-### 电池性能数据
-#### Li||Li对称电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 1 mA cm⁻²，1 mAh cm⁻² | 1 mAh cm⁻² | >8500 小时 | - | 累积容量4.25 Ah cm⁻²，过电位61 mV |
-| 2 mA cm⁻²，2 mAh cm⁻² | 2 mAh cm⁻² | 稳定循环 | - | 无明显极化增大 |
-| 6 mA cm⁻²，6 mAh cm⁻² | 6 mAh cm⁻² | 稳定循环 | - | 无枝晶短路风险 |
-| 1 mA cm⁻²，1 mAh cm⁻²（50μm薄锂片） | 1 mAh cm⁻² | >150 次循环 | - | 深度放电条件下性能稳定 |
-| 1 mA cm⁻²，1 mAh cm⁻²（60°C） | 1 mAh cm⁻² | 显著长于对照组 | - | 高温下电荷转移电阻小 |
-#### Li-LiFePO₄全电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 0.2 C，LFP负载~18 mg cm⁻²，N/P~2，贫电解液6 g Ah⁻¹ | - | >300 次循环 | - | 库仑效率超99.5% |
-| 1 C，LFP负载~18 mg cm⁻²，N/P~2，贫电解液6 g Ah⁻¹ | - | >300 次循环 | - | 电解液保持湿润，无“干涸”现象 |
-#### Li-S全电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 0.1 C，硫负载~10 mg cm⁻²，E/S=4.5 mL g⁻¹ | 1141.5 mAh g⁻¹ | >150 次循环 | >80% | 极化最小，电荷转移电阻最低 |
-| 0.1 C，N/P~1.5，贫电解液6 g Ah⁻¹ | - | 显著长于对照组 | - | 无明显容量衰减，锂金属无腐蚀 |
-### 特殊性能
-- **宽温性能**：60°C高温条件下仍保持优异循环稳定性，电荷转移电阻小，SEI结构未破坏，适用于极端温度场景。
-- **安全性**：有效抑制锂枝晶生长，循环后锂金属表面光滑无尖锐突起，避免短路风险；SEI稳定减少电解液分解和副反应，提升电池安全性。
-- **其他特色性能**：适配低N/P比（≤1.5）、贫电解液（6 g Ah⁻¹）等实际应用条件，锂沉积为各向同性纳米球，无死锂形成，兼顾高能量密度和长循环寿命。
-## 机理分析与表征
-1. **结构表征**：通过ATR-FTIR、FTIR和¹H NMR验证CA在锂金属表面的吸附及C=C双键断裂聚合，形成CA-Li聚合物；XPS和TOF-SIMS确认SEI为有机-无机杂化结构，表层富含CA-Li聚合物，内层含LiₓNOᵧ、LiF等无机成分，且电解液分解被显著抑制。
-2. **晶体结构演变**：同步辐射2D GIXD观察到，CA存在时锂沉积从择优取向的微米晶粒转变为各向同性纳米晶，避免纹理形成，循环后无明显Li₂CO₃、Li₂O等副产物积累，证实SEI对锂沉积取向的调控作用。
-3. **形貌与机械性能**：SEM和AFM显示，CA-Li电解液中锂沉积为光滑纳米球，无枝晶和死锂；AFM力学测试表明SEI平均杨氏模量达6.61 GPa，通过细晶强化效应抑制锂枝晶生长。
-4. **理论计算与电化学机理**：DFT计算证实CA与锂金属结合能高，CA-Li聚合物通过空间位阻限制锂成核生长，均匀化Li⁺通量；CV、EIS和GITT测试表明SEI电荷转移电阻低，Li⁺传输快速，电解液分解被抑制，提升电池动力学性能。
-## 结论与意义
-### 核心结论
-本研究通过咖啡酸（CA）原位阴离子聚合构建了多功能杂化SEI，CA与锂金属强吸附后引发聚合，形成兼具柔韧性和机械强度的有机-无机杂化层，调控锂沉积为各向同性纳米球，抑制枝晶生长和电解液分解。该策略使锂金属电池在高电流密度（10 mA cm⁻²）、高温（60°C）、低N/P比（~1.5）和贫电解液条件下，实现超8500小时循环和4.25 Ah cm⁻²累积容量，且Li-S和Li-LiFePO₄全电池均表现出优异性能。
+| **First Author** | Dan Luo |
+| **Corresponding Author** | Zhongwei Chen, Liwei Chen, Xin Wang |
+| **Affiliation** | 1. Guangdong Provincial Key Laboratory of Nanophotonic Functional Materials and Devices, School of Information and Optoelectronic Science and Engineering & International Academy of Optoelectronics at Zhaoqing, South China Normal University, Guangdong 510006, China; 2. Department of Chemical Engineering, Waterloo Institute of Nanotechnology, University of Waterloo, Waterloo, ON N2L 3G1, Canada; 3. i-LAB, and Vacuum Interconnected Nanotech Workstation (Nano-X), Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences, 215123 Suzhou Jiangsu, China; 4. Canadian Light Source, Saskatoon, SK S7N 0X4, Canada; 5. College of Energy, Xiamen University, Xiamen 361005, China; 6. In-situ Center for Physical Sciences, and Frontiers Science Center for Transformative Molecules, School of Chemistry and Chemical Engineering, Shanghai Jiao Tong University, Shanghai 200240, China; 7. South China Academy of Advanced Optoelectronics, South China Normal University, Guangdong 510631, China |
 
-### 意义与应用价值
-1. 提出了一种简便、可规模化的SEI构建策略，无需复杂工艺，仅通过添加小分子添加剂实现多功能SEI原位形成，解决了现有方案的局限性。
-2. 突破低N/P比、贫电解液、高温等实际应用瓶颈，为锂金属电池的实用化提供关键技术支撑，推动高能量密度电池在便携式电子设备、电动汽车等领域的应用。
-3. 启发相关储能体系的界面工程设计，邻苯二酚类分子与功能性基团的协同策略可拓展至其他金属电池（如钠金属电池）的SEI优化，具有广泛的普适性。
+## Research Background and Motivation
+Lithium metal batteries (LMB) are promising for high-energy-density storage due to lithium metal's high specific capacity (3860 mAh g⁻¹) and low reduction potential (-3.04 V vs. standard hydrogen electrode). However, their practical development is hindered by critical issues: unstable solid electrolyte interface (SEI) with poor mechanical properties leads to continuous breakage/accumulation during Li plating/stripping, exacerbating Li dendrite growth, low Coulombic efficiency (CE), short cycle life, and safety hazards. Additionally, under commercially relevant conditions (low N/P ratio ≤1.5, lean electrolyte, high temperature ≥60 °C), problems like electrolyte "drying" and capacity fading are amplified. Existing strategies (artificial SEI, electrolyte additives, etc.) fail to construct multifunctional SEI with robust structure, efficient Li⁺ regulation, and dendrite inhibition simultaneously. Thus, developing a feasible method for multifunctional SEI formation is essential for dendrite-free, long-cycle LMB.
+
+## Research Methods and Innovation Points
+### Composition of Gel Electrolyte
+| Component | Specific Material | Content/Ratio |
+|---------|---------|----------|
+| **Polymer Matrix/Monomer** | Caffeic acid (CA)-derived polymer (CA-Li) | CA: 0.1–1 wt% |
+| **Lithium Salt** | LiTFSI, LiNO₃ | LiTFSI: 1 M; LiNO₃: 2 wt% |
+| **Solvent** | 1,3-dioxolane (DOL)/dimethoxyethane (DME) | V/V = 1:1 |
+| **Additive** | Caffeic acid (CA) | 0.1–1 wt% |
+| **Initiator/Crosslinking Agent** | Lithium (Li) metal | In-situ initiated by Li metal |
+| **Polymerization Conditions** | Room temperature; electrolyte stirred for 24 h; battery rested for 12 h after assembly | - |
+
+### Polymerization Method
+- **Polymerization Type**: In-situ Anionic Polymerization
+- **Polymerization Conditions**: Initiated by Li metal (electron transfer to C=C double bonds of CA); room temperature; polymerization thermodynamically favored (negative reaction free energy)
+
+### Key Innovation Points
+1. Developed a novel strategy using caffeic acid (CA) (containing catechol and acrylic groups) as an electrolyte additive to construct multifunctional SEI via in-situ anionic polymerization, integrating strong surface adsorption and polymerization capability.
+2. The formed organic-inorganic hybrid SEI regulates Li deposition into isotropic nanospheres with non-preferred orientation, achieving dendrite-free Li anodes and solving the problem of uneven Li growth.
+3. Realized excellent electrochemical performance of LMB under practical harsh conditions (low N/P ratio ~1.5–2, lean electrolyte 6 g Ah⁻¹, high temperature 60 °C), breaking through the limitations of traditional SEI in practical applications.
+
+## Main Results
+### Physicochemical Properties of Electrolyte
+| Performance Indicator | Test Conditions | Value | Unit |
+|---------|---------|------|------|
+| **Ionic Conductivity** | 25°C | Not reported | S cm⁻¹ |
+| **Ionic Conductivity** | -40°C | Not reported | S cm⁻¹ |
+| **Li⁺ Transference Number** | - | Not reported | - |
+| **Electrochemical Window** | Cyclic Voltammetry | >4 V (CA oxidation peak above 4 V) | V |
+| **Flame Retardancy** | - | Not reported | - |
+| **Mechanical Properties** | Atomic Force Microscopy (AFM) force indentation | 6.61 (Li@CA-LiNO₃); 2.11 (pristine Li metal) | GPa (Young’s modulus) |
+
+### Battery Performance Data
+#### Li-LiFePO₄ Battery
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
+|---------|---------|---------|-----------|------|
+| 0.2 C (charging/discharging); LFP loading ~18 mg cm⁻²; N/P ratio ~2; lean electrolyte 6 g Ah⁻¹ | Not explicitly reported | 300 cycles | 94% | CE > 99.5% after activation; low charge transfer resistance |
+| 60 °C; LFP loading ~18 mg cm⁻²; N/P ratio ~2; lean electrolyte 6 g Ah⁻¹ | Higher than LiNO₃ electrolyte system | Longer than LiNO₃ electrolyte system | Not reported | Superior high-temperature stability |
+
+#### Li-Li Symmetric Battery
+| Current Density | Areal Capacity | Stable Cycling Time | Overpotential | Remarks |
+|---------|---------|------------|--------|------|
+| 1 mA cm⁻² | 1 mAh cm⁻² | >8500 hrs | Low (61 mV for 1st cycle nucleation) | Cumulative capacity 4.25 Ah cm⁻² |
+| 2 mA cm⁻² | 2 mAh cm⁻² | Stable cycling | Low | No obvious polarization fluctuation |
+| 6 mA cm⁻² | 6 mAh cm⁻² | Stable cycling | Low | No short circuit |
+| 10 mA cm⁻² | - | Stable cycling | Low | Excellent rate performance |
+| 1 mA cm⁻² | 1 mAh cm⁻²; 50 μm thin Li plate | 150 cycles | Low | Meets practical thin Li anode requirements |
+| 1 mA cm⁻² | 1 mAh cm⁻²; 60 °C | Longer than LiNO₃ electrolyte system | Lower than LiNO₃ electrolyte system | Superior high-temperature cycling stability |
+
+#### Li-S Battery
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
+|---------|---------|---------|-----------|------|
+| 0.1 C; sulfur loading ~10 mg cm⁻²; E/S ratio 4.5 mL g⁻¹ | 1141.5 mAh g⁻¹ | 150 cycles | >80% | Low polarization; CE stable |
+| 0.1 C; N/P ratio ~1.5; lean electrolyte 6 g Ah⁻¹ | Higher than LiNO₃ electrolyte system | Longer than LiNO₃ electrolyte system | Not reported | Fast redox kinetics; no LiNO₃ decomposition |
+
+### Special Performance
+- **Wide-Temperature Performance**: Excellent stability at 60 °C (long cycle life, low charge transfer resistance); no obvious performance degradation under high-temperature conditions.
+- **Safety**: Inhibits Li dendrite growth (smooth Li surface after 100 cycles); reduces electrolyte decomposition (less inorganic by-products like Li₂CO₃, Li₃N); avoids electrode pulverization and short-circuit risks.
+- **Other Characteristic Performance**: High cumulative capacity (4.25 Ah cm⁻² for symmetric cells); high rate capability (stable at 10 mA cm⁻²); good compatibility with Li-S and Li-LiFePO₄ systems; SEI with strong binding force (CA-Li binding energy high) and organic-inorganic hybrid structure (good flexibility and mechanical strength).
+
+## Mechanism Analysis and Characterization
+The research used multiple characterization methods to clarify the SEI formation mechanism and Li deposition regulation mechanism:
+1. **FTIR/ATR-FTIR**: Confirmed CA adsorption on Li surface (peaks at 1469, 1578 cm⁻¹ for C=C and -COOR) and C=C bond cleavage/polymerization (appearance of sp³ C-H bond).
+2. **¹H NMR/⁷Li NMR**: Verified CA anionic polymerization (disappearance of double bond protons, upfield shift); confirmed LiNO₃ dissociation promotion by CA hydrogen bonding.
+3. **XPS/TOF-SIMS**: Identified SEI composition (organic RCOOLi, ROLi; inorganic LiₓNOᵧ, LiF) and organic-inorganic hybrid structure; proved inhibited electrolyte decomposition (lower F⁻, SO₃⁻ signals).
+4. **Synchrotron GIXD**: Revealed Li structural evolution—CA-Li SEI induces Li deposition from microsized textured grains to nanocrystalline polyhedra with non-preferred orientation, avoiding texture formation.
+5. **SEM/AFM**: Observed dendrite-free Li surface (nanospherical Li deposition) and smooth SEI morphology (Young’s modulus 6.61 GPa, 3x higher than Li metal).
+6. **DFT Calculations**: Demonstrated strong binding affinity between CA-Li and Li (high binding energy); steric repulsion of CA-Li polymer chains constrains Li nucleation/growth into nanospheres.
+7. **CV/EIS/GITT**: Confirmed fast charge transfer (low Rct), stable redox kinetics (low polarization), and no LiNO₃ decomposition in Li-S cells.
+
+## Conclusions and Significance
+### Core Conclusions
+1. Caffeic acid (CA) can form a multifunctional organic-inorganic hybrid SEI on Li metal via in-situ anionic polymerization, which has strong electrolyte binding ability, excellent mechanical properties, and Li⁺ flux regulation capability.
+2. The SEI regulates Li deposition into isotropic nanospheres, inhibits dendrite growth and electrolyte decomposition, and achieves ultra-long cycle life (>8500 h), high rate capability (10 mA cm⁻²), and stable performance under harsh conditions (low N/P ratio, lean electrolyte, high temperature) for LMB.
+3. The strategy is universally applicable to Li-S and Li-LiFePO₄ batteries, significantly improving their practical application potential.
+
+### Significance and Application Value
+1. **Academic Significance**: Provides a new idea for SEI design by integrating biological inspiration (mussel catechol adhesion) and in-situ polymerization, clarifying the regulation mechanism of SEI on Li deposition morphology/structure, and enriching the interface engineering theory of lithium metal batteries.
+2. **Practical Value**: Breaks through the performance bottleneck of LMB under practical conditions, promotes the commercialization of high-energy-density LMB (especially Li-S batteries), and provides a feasible electrolyte modification strategy for energy storage systems such as electric vehicles and grid-scale storage.
+3. **Enlightenment**: Guides the design of electrolyte additives for related fields (sodium metal batteries, solid-state batteries) by using catechol family molecules with multiple functional groups, opening up a new direction for interfacial modification of energy storage devices.
+
+---
+## Quality Check Checklist
+- [✓] Are the units of numerical values in all tables correct?
+- [✓] Are the numerical values accurate (checked against the original paper)?
+- [✓] Are the chemical formulas correct (e.g., LiTFSI, LiPF₆, etc.)?
+- [✓] Is the description of battery types clear?
+- [✓] Are the test conditions marked for cycle life?
+- [✓] Are the innovation points accurately extracted?

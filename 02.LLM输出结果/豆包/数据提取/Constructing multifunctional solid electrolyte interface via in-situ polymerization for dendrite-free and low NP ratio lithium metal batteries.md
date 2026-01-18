@@ -1,48 +1,43 @@
-# Constructing multifunctional solid electrolyte interface via in-situ polymerization for dendrite-free and low N/P ratio lithium metal batteries - 数据提取
-## 电解质组成
-| 组成 | 材料 | 含量/条件 |
-|------|------|----------|
-| 聚合物基体 | 聚咖啡酸锂（CA-Li） | 原位聚合形成薄膜 |
-| 单体 | 咖啡酸（CA） | 1 wt% |
-| 锂盐 | 双三氟甲烷磺酰亚胺锂（LiTFSI）、硝酸锂（LiNO₃） | LiTFSI：1 M；LiNO₃：2 wt% |
-| 锂盐浓度 | - | LiTFSI：1 M |
-| 溶剂 | 1,3-二氧戊环（DOL）/二甲氧基乙烷（DME） | 体积比1:1 |
-| 添加剂 | 咖啡酸（CA）、硝酸锂（LiNO₃） | CA：1 wt%；LiNO₃：2 wt% |
-| 引发剂 | 锂金属（Li） | 原位引发阴离子聚合 |
-| 交联剂 | 未报道 | 未报道 |
-| 聚合方法 | 原位阴离子聚合 | 锂金属引发CA聚合 |
-| 聚合条件 | - | 室温下原位进行，电解质制备搅拌24 h |
+# Constructing multifunctional solid electrolyte interface via in-situ polymerization for dendrite-free and low N/P ratio lithium metal batteries - Data Extraction
+## Electrolyte Composition
+| Component | Material | Content/Conditions |
+|-----------|----------|--------------------|
+| Polymer Matrix | CA-Li (Caffeic acid-lithium polymer) | Formed via in-situ polymerization |
+| Monomer | Caffeic acid (CA) | 1 wt% |
+| Lithium Salt | LiTFSI, LiNO₃ | LiTFSI: 1 M; LiNO₃: 2 wt% |
+| Lithium Salt Concentration | - | LiTFSI: 1 M; LiNO₃: 2 wt% |
+| Solvent | DOL/DME | v/v = 1:1 |
+| Additives | Caffeic acid (CA) | 1 wt% |
+| Initiator | Li metal | In-situ initiation |
+| Crosslinking Agent | - | Not reported |
+| Polymerization Method | In-situ anionic polymerization | Initiated by Li metal |
+| Polymerization Conditions | - | In-situ reaction in battery system (no explicit temperature/time reported) |
 
-## 电解质性能
-| 性能指标 | 数值 | 单位 | 测试条件 | 备注 |
-|---------|------|------|---------|------|
-| 离子电导率 | 未报道 | S cm⁻¹ | 未报道 | - |
-| 离子电导率（低温） | 未报道 | S cm⁻¹ | 未报道 | - |
-| Li⁺迁移数 | 未报道 | - | 未报道 | - |
-| 电化学窗口 | 未报道 | V | 未报道 | - |
-| 阻燃性 | 未报道 | - | 未报道 | - |
+## Electrolyte Performance
+| Performance Indicator | Value | Unit | Test Conditions | Remarks |
+|-----------------------|-------|------|-----------------|---------|
+| Ionic Conductivity | - | S cm⁻¹ | - | Not reported |
+| Ionic Conductivity (Low Temperature) | - | S cm⁻¹ | - | Not reported |
+| Li⁺ Transference Number | - | - | - | Not reported |
+| Electrochemical Window | - | V | - | CA oxidation peak above 4 V (no full window reported) |
+| Flame Retardancy | - | - | - | Not reported |
 
-## 电池性能
-### 电池1：Li||Li 对称电池
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 1 mA cm⁻²，1 mAh cm⁻² | - | - | - | 稳定 | - | 超长期循环寿命8500 h，累积容量4.25 Ah cm⁻² |
-| 2 mA cm⁻²，2 mAh cm⁻² | - | - | - | 稳定 | - | 无明显极化波动 |
-| 6 mA cm⁻²，6 mAh cm⁻² | - | - | - | 稳定 | - | 循环稳定性优异 |
-| 10 mA cm⁻² | - | - | - | 稳定 | - | 高电流密度下仍保持平稳电压平台 |
-| 60 °C，1 mA cm⁻²，1 mAh cm⁻² | - | - | - | 稳定 | - | 高温下循环稳定性优于LiNO₃电解质体系 |
-| 50 μm Li片，1 mA cm⁻²，1 mAh cm⁻² | - | - | 150 | 稳定 | - | 薄锂片条件下表现优异 |
+## Battery Performance
+### Battery 1: Li-LiFePO₄
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 1 C, High LFP loading (~18 mg cm⁻²), Low N/P ratio (~2), Lean electrolyte (6 g Ah⁻¹), 60 °C | - | mAh g⁻¹ | 300 | 94% | % | Coulombic Efficiency ≥ 99.5% after activation; Stable cycling under high temperature and lean electrolyte conditions |
+| 0.2 C, High LFP loading (~18 mg cm⁻²), Low N/P ratio (~2), Lean electrolyte (6 g Ah⁻¹) | - | mAh g⁻¹ | - | - | - | Higher discharge capacity than LiNO₃ electrolyte; Low charge transfer resistance |
 
-### 电池2：Li||LiFePO₄（LFP）全电池
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 0.2 C，N/P≈2，电解质含量6 g Ah⁻¹，正极载量~18 mg cm⁻² | 未明确 | mAh g⁻¹ | - | - | - | 放电容量高于LiNO₃电解质体系 |
-| 1 C，N/P≈2，电解质含量6 g Ah⁻¹，正极载量~18 mg cm⁻² | 未明确 | mAh g⁻¹ | 300 | 94 | % | 库伦效率（CE）≥99.5% |
-| 60 °C，N/P≈2，电解质含量6 g Ah⁻¹ | 未明确 | mAh g⁻¹ | - | 稳定 | - | 高温下循环寿命延长 |
+### Battery 2: Li-S
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 0.1 C, High sulfur loading (~10 mg cm⁻²), Low E/S ratio (4.5 mL g⁻¹), Lean electrolyte | 1141.5 | mAh g⁻¹ | 150 | >80% | % | Inhibits polysulfide corrosion; Two typical discharge plateaus (2.35 V, 2.1 V) |
+| 0.1 C, Low N/P ratio (~1.5), Lean electrolyte (6 g Ah⁻¹) | - | mAh g⁻¹ | - | - | - | Longer second discharge plateau; Lower potential hysteresis; Fast redox kinetics |
 
-### 电池3：Li||S 全电池
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 0.1 C，硫载量~10 mg cm⁻²，E/S=4.5 mL g⁻¹ | 1141.5 | mAh g⁻¹ | 150 | ≥80 | % | 极化程度最低 |
-| 0.1 C，N/P≈1.5，电解质含量6 g Ah⁻¹ | 未明确 | mAh g⁻¹ | 300 | 稳定 | - | 循环稳定性优于LiNO₃和纯CA电解质体系 |
-| - | - | - | 500 | 稳定 | - | 锂金属表面保持光亮均匀，无明显腐蚀 |
+### Supplementary Symmetric Cell Performance (Li-Li)
+| Test Conditions | Cycle Life | Cumulative Capacity | Capacity Unit | Remarks |
+|-----------------|------------|--------------------|---------------|---------|
+| 1 mA cm⁻², 1 mAh cm⁻² | 8500 hrs | 4.25 | Ah cm⁻² | Ultralong cyclic stability; Low potential hysteresis |
+| 6 mA cm⁻², 6 mAh cm⁻² | - | - | - | Stable stripping/plating without short circuit |
+| 1 mA cm⁻², 1 mAh cm⁻², 60 °C | - | - | - | Excellent high-temperature stability; Low charge transfer resistance |

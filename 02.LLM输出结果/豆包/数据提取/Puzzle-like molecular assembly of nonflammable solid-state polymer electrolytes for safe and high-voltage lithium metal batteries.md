@@ -1,43 +1,41 @@
-# Puzzle-like molecular assembly of nonflammable solid-state polymer electrolytes for safe and high-voltage lithium metal batteries - 数据提取
-## 电解质组成
-| 组成 | 材料 | 含量/条件 |
-|------|------|----------|
-| 聚合物基体 | IWSWN-SPE（VEC-HFBMA-TAP共聚物） | 共聚体系 |
-| 单体 | 乙烯基碳酸乙烯酯（VEC）、2,2,3,3,4,4,4-七氟丁基甲基丙烯酸酯（HFBMA）、磷酸三烯丙酯（TAP） | 摩尔比 n(VEC):n(HFBMA):n(TAP)=1:0.1:0.15 |
-| 锂盐 | 双(三氟甲烷磺酰)亚胺锂（LiTFSI） | 单体总质量的20% |
-| 锂盐浓度 | - | 未报道 |
-| 溶剂 | - | 无溶剂体系 |
-| 添加剂 | - | 未报道 |
-| 引发剂 | 偶氮二异丁腈（AIBN） | 1.0 wt%（相对于VEC、HFBMA和TAP的总质量） |
-| 交联剂 | - | 未报道 |
-| 聚合方法 | 原位自由基聚合 | - |
-| 聚合条件 | 预聚合：65℃，2h；后续聚合：70℃，6h | 基于Al₂O₃涂层PE隔膜为支撑体 |
-## 电解质性能
-| 性能指标 | 数值 | 单位 | 测试条件 | 备注 |
-|---------|------|------|---------|------|
-| 离子电导率 | 4.32×10⁻⁴ | S cm⁻¹ | 25℃ | 0.432 mS cm⁻¹转换后结果 |
-| 离子电导率（低温） | 未报道 | - | - | - |
-| Li⁺迁移数 | 0.70 | - | 25℃，Li||Li对称电池测试 | 相较于PVEC（0.36）显著提升 |
-| 电化学窗口 | 5.15 | V | 25℃，LSV测试（扫描速率1 mV s⁻¹） | 氧化稳定电位 |
-| 阻燃性 | 不可燃 | - | 燃烧测试 | 暴露于火焰中不燃烧，移除火焰后保持原有形状 |
-## 电池性能
-### 电池1：Li||LiNi₀.₆Co₀.₂Mn₀.₂O₂（NCM622）
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 2.5-4.3 V，0.5 C（1 C=180 mA g⁻¹），30℃ | 150 | mAh g⁻¹ | 300 | 73.5 | % | 最大初始放电容量 |
-| 2.5-4.3 V，常规倍率 | - | - | 100 | - | - | 正极载量15.8 mg cm⁻²，稳定循环 |
-| 0.1 C（1 C=180 mA g⁻¹），30℃ | 173.9 | mAh g⁻¹ | - | - | - | 速率性能测试数据 |
-| 1.0 C（1 C=180 mA g⁻¹），30℃ | 118.4 | mAh g⁻¹ | - | - | - | 速率性能测试数据 |
-### 电池2：Li||LiFePO₄（LFP）
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 100℃，1 C（1 C=160 mA g⁻¹） | - | - | 120 | - | - | 稳定循环，无明显容量衰减 |
-### 电池3：Li||LiNi₀.₈Co₀.₁Mn₀.₁O₂（NCM811） pouch cell
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 常温，截止电压4.3 V | - | - | - | - | - | 2.6-Ah，比能量349 Wh kg⁻¹（基于电池总质量28.2 g） |
-### 电池4：Li||Li对称电池
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 0.2 mA cm⁻²，0.2 mAh cm⁻² | - | - | - | - | - | 稳定运行超过2600 h，无短路 |
-| 0.5 mA cm⁻² | - | - | 600 | - | - | 过电位413 mV，稳定循环 |
+# Puzzle-like molecular assembly of nonflammable solid-state polymer electrolytes for safe and high-voltage lithium metal batteries - Data Extraction
+## Electrolyte Composition
+| Component | Material | Content/Conditions |
+|-----------|----------|--------------------|
+| Polymer Matrix | IWSWN-SPE (copolymer of VEC, HFBMA, TAP) | |
+| Monomer | Vinyl Ethylene Carbonate (VEC), 2,2,3,3,4,4,4-Heptafluorobutyl Methacrylate (HFBMA), Triallyl Phosphate (TAP) | Molar ratio: n(VEC):n(HFBMA):n(TAP) = 1:0.1:0.15 |
+| Lithium Salt | Lithium bis(trifluoromethanesulfonyl)imide (LiTFSI) | 20 wt% (relative to total mass of monomers) |
+| Lithium Salt Concentration | LiTFSI | 20 wt% |
+| Solvent | Not reported | Not reported |
+| Additives | Not reported | Not reported |
+| Initiator | Azobisisobutyronitrile (AIBN) | 1.0 wt% (relative to sum of VEC, HFBMA, TAP) |
+| Crosslinking Agent | Not reported | Not reported |
+| Polymerization Method | In situ free radical polymerization | |
+| Polymerization Conditions | Pre-polymerization: 65 °C, 2 h; Subsequent polymerization: 70 °C, 6 h | Using Al₂O₃-coated PE separator as scaffold |
+
+## Electrolyte Performance
+| Performance Indicator | Value | Unit | Test Conditions | Remarks |
+|-----------------------|-------|------|-----------------|---------|
+| Ionic Conductivity | 4.32 × 10⁻⁴ | S cm⁻¹ | 25 °C | Equivalent to 0.432 mS cm⁻¹ |
+| Ionic Conductivity (Low Temperature) | Not reported | | | |
+| Li⁺ Transference Number | 0.70 | | 25 °C | Measured via chronoamperometry + EIS |
+| Electrochemical Window | 5.15 | V | 25 °C, scan rate 1 mV s⁻¹ | LSV test result |
+| Flame Retardancy | Non-flammable | | Direct flame exposure | No ignition or sustained combustion |
+
+## Battery Performance
+### Battery 1: Li||LiNi₀.₆Co₀.₂Mn₀.₂O₂ (NCM622)
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 0.1 C (180 mA g⁻¹), 2.5-4.3 V, 30 °C | 173.9 | mAh g⁻¹ | - | - | - | Rate performance test |
+| 0.5 C (90 mA g⁻¹), 2.5-4.3 V, 30 °C | 150.0 | mAh g⁻¹ | 300 | 73.5 | % | Maximum initial discharge capacity in cycling test |
+| 0.2 C (36 mA g⁻¹), 4.3 V, 30 °C | - | - | >100 | Stable | - | Cathode mass loading 15.8 mg cm⁻² |
+
+### Battery 2: Li||LiFePO₄ (LFP)
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 1 C (160 mA g⁻¹), 100 °C | - | - | 120 | Stable | - | No capacity decay reported |
+
+### Battery 3: Li||LiNi₀.₈Co₀.₁Mn₀.₁O₂ (NCM811) Pouch Cell
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 30 °C, 4.3 V | - | - | - | - | - | 2.6 Ah capacity, specific energy 349 Wh kg⁻¹ (based on 28.2 g pouch cell) |

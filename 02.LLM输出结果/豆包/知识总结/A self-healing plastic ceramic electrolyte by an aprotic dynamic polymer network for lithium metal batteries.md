@@ -1,94 +1,100 @@
 # A self-healing plastic ceramic electrolyte by an aprotic dynamic polymer network for lithium metal batteries
-## 基本信息
-| 项目 | 内容 |
+## Basic Information
+| Item | Content |
 |------|------|
-| **期刊** | Nature Communications |
-| **年份/卷期** | 2024, 15:10015 |
+| **Journal** | Nature Communications |
+| **Year/Volume-Issue** | 2024, 15:10015 |
 | **DOI** | https://doi.org/10.1038/s41467-024-53869-z |
-| **第一作者** | Yubin He, Chunyang Wang（共同一作） |
-| **通讯作者** | Huolin L. Xin |
-| **研究机构** | 加州大学欧文分校、布鲁克海文国家实验室、阿贡国家实验室、加州大学河滨分校等 |
-## 研究背景与动机
-氧化物陶瓷电解质（OCEs）因高弹性模量、良好电化学稳定性、低成本和环境友好等优势，在固态锂金属电池（SSLMB）中具有巨大潜力，但面临多重挑战限制其应用：1. 晶界锂离子扩散缓慢，离子电导率受限；2. 电子导电性导致锂枝晶在晶界沉积；3. 与锂金属接触时发生锂化降解，引发SEI失控生长，且润湿性差导致高接触电阻和界面剥离；4. 需高温高压烧结制备，脆性大，与传统卷对卷工艺不兼容。现有策略难以同时解决导电性、枝晶生长、界面稳定性、堆叠压力和制备工艺等核心问题，因此亟需开发新型电解质材料突破瓶颈。
-## 研究方法与创新点
-### 凝胶电解质组成（塑料陶瓷电解质PCE）
-| 组成部分 | 具体材料 | 含量/比例 |
-|---------|---------|----------|
-| **聚合物基体/单体** | 乙烯丙烯酸酯（EA）、(三氟甲烷)磺酰亚胺锂甲基丙烯酸酯（MTFSI） | EA与MTFSI按不同质量比（5:8至5:1）混合 |
-| **锂盐** | 双(三氟甲烷磺酰基)亚胺锂（LiTFSI）、高氯酸锂（LiClO₄） | LiTFSI 0.6 g（按配方比例）；LiClO₄为验证实验用 |
-| **溶剂** | 无（溶剂-free） | - |
-| **添加剂** | 丁二腈（SN）、氟代碳酸乙烯酯（FEC） | SN 1 g；FEC 5 wt% |
-| **引发剂/交联剂** | 苯基双(2,4,6-三甲基苯甲酰基)氧化膦（PPO） | 0.1 wt% |
-| **陶瓷组分** | Li₁.₅Al₀.₅Ti₁.₅(PO₄)₃（LATP） | 70 wt% |
-| **聚合条件** | 365 nm UV照射，22°C，10分钟 | 单体转化率近100% |
-### 聚合方法
-- **聚合类型**：原位自由基聚合（UV聚合）
-- **聚合条件**：22°C、365 nm UV照射10分钟；PCE制备采用冷碾工艺（22°C手工研磨+辊压）
-### 主要创新点
-1. 构建非质子动态交联聚合物网络，利用-CH₃…CF₃非共价相互作用（结合能0.4-0.5 eV）实现电解质自愈合功能，避免含-OH、-NH等与锂金属反应的基团，提升界面稳定性；
-2. 开发冷碾制备工艺，无需高温高压烧结，所得PCE具有柔性、可变形性，兼容卷对卷制备，且工作堆叠压力<0.1 MPa；
-3. 发现双步自愈合机制（聚合物渗透→LATP颗粒迁移），快速修复缺陷（22.6 µm/hour），消除枝晶生长“热点”；
-4. 设计分层结构H-SSE，引入聚丙烯酸酯基SPE（PA-SPE）缓冲层，完全隔离LATP与锂阳极，进一步抑制副反应，提升循环稳定性；
-5. 同步解决OCEs的离子导电性、枝晶抑制、界面稳定性、机械脆性和制备工艺五大核心问题。
-## 主要结果
-### 电解质物理化学性能
-| 性能指标 | 测试条件 | 数值 | 单位 |
-|---------|---------|------|------|
-| **离子电导率** | 30°C | 0.75 | mS cm⁻¹ |
-| **离子电导率** | 100°C | 5.09 | mS cm⁻¹ |
-| **离子电导率（晶界）** | 30°C（PCE） | 0.8 | mS cm⁻¹ |
-| **离子电导率（晶界）** | 30°C（纯LATP） | 0.024 | mS cm⁻¹ |
-| **Li⁺迁移数** | 室温 | 0.74 | - |
-| **电化学窗口** | vs. Li⁺/Li | 0-4.6 | V |
-| **电子电导率** | 30°C（PCE） | 5.7×10⁻⁸ | S cm⁻¹ |
-| **电子电导率** | 30°C（纯LATP） | 1.5×10⁻⁶ | S cm⁻¹ |
-| **电子电导率** | 22°C（H-SSE） | 2.3×10⁻⁹ | S cm⁻¹ |
-| **机械性能（储能模量G’）** | 室温（SH-SPE） | 10⁴-10⁵ | Pa |
-| **机械性能（储能模量G’）** | 室温（PCE） | 10⁶-10⁷ | Pa |
-| **拉伸率** | 室温 | >220% | - |
-| **自愈合速率** | 22°C，226 µm级空隙 | 22.6 | µm hour⁻¹ |
-### 电池性能数据
-#### Li||Li对称电池
-| 电流密度 | 面积容量 | 稳定循环时间 | 过电位 | 备注 |
-|---------|---------|------------|--------|------|
-| 1 mA cm⁻² | 0.5 mAh cm⁻² | >2000 h | 稳定 | PCE电解质，22°C |
-| 1 mA cm⁻² | - | >2900 h | 稳定 | H-SSE电解质，22°C，AAC=2900 mAh cm⁻² |
-| 2 mA cm⁻² | 2 mAh cm⁻² | - | 稳定 | H-SSE电解质，22°C，AAC=2000 mAh cm⁻² |
-| 20 mA cm⁻² | 0.5 mAh cm⁻² | - | 稳定 | H-SSE电解质，22°C，AAC=1400 mAh cm⁻² |
-| 0.05 mA cm⁻² | 0.025 mAh cm⁻² | <100 h | 快速上升 | 纯LATP电解质，50°C（对比组） |
-#### LFP||Li金属电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 22°C，C/2（0.19 mA cm⁻²） | - | >1300 cycles | 92% | PCE电解质，容量衰减0.006%/cycle |
-| 50°C，2C（0.69 mA cm⁻²） | - | ~4000 cycles | 88% | H-SSE电解质，容量衰减0.003%/cycle |
-| 22°C，C/2（0.38 mA cm⁻²） | - | 2400 cycles | 84% | H-SSE电解质，电极负载4.5 mg cm⁻² |
-#### 高镍无钴零应变 cathode||Li金属电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 22°C，C/2（0.23 mA cm⁻²） | 152 mAh g⁻¹ | 500 cycles | 81% | PCE电解质，电压2.8-4.3 V |
-| 50°C，1C（0.55 mA cm⁻²） | 144 mAh g⁻¹ | 3600 cycles | 70%（2860 cycles） | H-SSE电解质，电压2.8-4.2 V |
-#### NMC811||Li金属电池（商业高负载）
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 22°C，C/6（0.24 mA cm⁻²） | 129.9 mAh g⁻¹ | 1000 cycles | 71% | H-SSE电解质，电极负载7.4 mg cm⁻² |
-| 22°C，C/6（0.24 mA cm⁻²） | 129.9 mAh g⁻¹ | 640 cycles | 80% | H-SSE电解质，电极负载7.4 mg cm⁻² |
-### 特殊性能
-- **宽温性能**：30°C离子电导率达0.75 mS cm⁻¹，100°C提升至5.09 mS cm⁻¹，22°C下可稳定循环，无需高温辅助；
-- **安全性**：采用无溶剂配方，添加阻燃性丁二腈（SN），无泄漏风险；SEI层富含LiF、Li₂O等稳定组分，抑制副反应；
-- **其他特色性能**：具有快速自愈合能力，毫米级空隙20小时内完全修复；柔性可拉伸（>220%），机械稳定性优异；低堆叠压力（<0.1 MPa），兼容 pouch 电池封装；
-## 机理分析与表征
-1. **原位同步辐射XRF显微镜**：实时观测到双步自愈合机制，第一步聚合物（SH-SPE）渗透填充空隙，第二步LATP颗粒沿浓度梯度扩散补全缺陷，且愈合速率随空隙尺寸减小而加速（22.6 µm/hour远超锂沉积速率4.82 µm/hour）；
-2. **Cryo-TEM/EDS**：揭示LATP晶界被SH-SPE充分浸润，形成均匀致密的SEI层（富含C、N、O、F、S元素），锂沉积呈致密块状（bcc结构），无枝晶生长；SEI由纳米晶域（如Li₂O）组成，结晶取向多样；
-3. **MAS-ssNMR/2D EXSY NMR**：证实EA与MTFSI间存在-CH₃…CF₃非共价相互作用，且Li⁺在聚合物相和陶瓷相间快速交换（5 ms短混合时间即出现交叉峰），离子传输路径均匀；
-4. **XAS/XPS**：验证SEI由LiF、Li₃N、Li₂O、Li₂CO₃、S-Oₓ、Li₂Sₓ等组成，H-SSE中PA-SPE缓冲层完全隔离LATP与锂阳极，避免LATP锂化降解；
-5. **EIS**：PCE晶界电阻（55 Ω）远低于纯LATP（5000 Ω），Li||PCE||Li电池循环中电荷转移电阻稳定（~14.5 Ω·cm²），无界面剥离或枝晶穿透。
-## 结论与意义
-本研究成功开发了基于非质子动态聚合物网络的自愈合塑料陶瓷电解质（PCE）及分层结构H-SSE，通过冷碾工艺避免高温高压烧结，同时解决了传统OCEs的五大核心挑战。PCE凭借双步自愈合机制消除缺陷、优化晶界离子/电子传导、稳定电极界面，实现了锂金属电池超长时间循环（Li||Li对称电池>2000 h，全电池>3600 cycles），且在低堆叠压力（<0.1 MPa）、室温条件下表现优异。H-SSE通过PA-SPE缓冲层进一步提升界面稳定性，临界电流密度超30 mA cm⁻²，兼容高负载商业阴极。该研究为固态电解质设计提供了“动态交联+功能聚合物复合”的新策略，突破了固态锂金属电池在稳定性、加工性和安全性上的瓶颈，对电动汽车和大规模储能系统的实用化具有重要推动意义。
+| **First Author** | Yubin He, Chunyang Wang (co-first authors) |
+| **Corresponding Author** | Huolin L. Xin |
+| **Affiliation** | 1.Department of Physics and Astronomy, University of California, Irvine, CA, USA; 2.National Synchrotron Light Source II, Brookhaven National Laboratory, Upton, NY, USA; 3.Cell Analysis, Modeling, and Prototyping Facility, Argonne National Laboratory, Lemont, IL, USA; 4.Department of Mechanical Engineering, University of California, Riverside, CA, USA; 5.Chemistry Division, Brookhaven National Laboratory, Upton, NY, USA; 6.Department of Materials Science and Engineering, Yonsei University, Seoul 03722, Republic of Korea |
 
-## 质量检查清单
-- [x] 所有表格中的数值单位是否正确
-- [x] 数值是否准确（与原文核对）
-- [x] 化学式是否正确（如LiTFSI、LiClO₄、LATP等）
-- [x] 电池类型描述是否清晰
-- [x] 循环寿命是否标注了测试条件
-- [x] 创新点是否准确提炼
+## Research Background and Motivation
+Oxide ceramic electrolytes (OCEs) are promising for solid-state lithium metal (Li⁰) batteries due to their high elastic modulus, electrochemical stability, low cost, and environmental benignity. However, their practical application is hindered by multiple intertwined challenges: 1) Sluggish Li⁺ diffusion at grain boundaries leading to low ionic conductivity; 2) High electronic conductivity causing Li⁰ dendrite deposition at grain boundaries; 3) Defects/cracks forming "hotspots" for dendrites, along with uncontrolled side reactions and poor wettability at electrode-electrolyte interfaces; 4) Brittleness and high-temperature/high-pressure sintering requirements incompatible with conventional battery fabrication. Existing strategies fail to simultaneously address all these issues, resulting in OCEs with low critical current density (<1 mA/cm²), small areal capacity, high stack pressure demand (>40 MPa), and poor durability. This research aims to develop a novel electrolyte to overcome these limitations.
+
+## Research Methods and Innovation Points
+### Composition of Gel Electrolyte
+| Component | Specific Material | Content/Ratio |
+|---------|---------|----------|
+| **Polymer Matrix/Monomer** | Ethyl acrylate (EA), (Trifluoromethane) sulfonimide lithium methacrylate (MTFSI), Ethylene glycol dimethylacrylate (EDA, for PA-SPE) | EA:MTFSI = 5:1 to 5:8 (w/w); SH-SPE (30 wt%), LATP (70 wt%) for PCE; PA-SPE buffer layer (120 µm thick) |
+| **Lithium Salt** | Lithium bis(trifluoromethanesulfonyl) imide (LiTFSI), Lithium perchlorate (LiClO₄, for verification) | LiTFSI (0.6 g in SH-SPE/PA-SPE synthesis) |
+| **Solvent** | No solvent (solvent-free synthesis) | - |
+| **Additive** | Succinonitrile (SN), 4-fluoro-1,3-dioxolan-2-one (FEC) | SN (1 g); FEC (5 wt%) |
+| **Initiator/Crosslinking Agent** | Phenylbis(2,4,6-trimethylbenzoyl) phosphineoxide (PPO), Azobisisobutyronitrile (AIBN) | PPO (0.1 wt%, photoinitiator for SH-SPE); AIBN (0.1 wt%, thermal initiator for PA-SPE) |
+| **Polymerization Conditions** | SH-SPE: UV irradiation (365 nm, 10 min, 22 °C); PA-SPE: Thermal polymerization (65 °C, overnight); PCE: Cold-milling (22 °C) + roll-pressing | Near-quantitative monomer conversion for SH-SPE |
+
+### Polymerization Method
+- **Polymerization Type**: In-situ Radical Polymerization (UV-initiated for SH-SPE, thermal-initiated for PA-SPE)
+- **Polymerization Conditions**: SH-SPE: 22 °C, 10 min, UV irradiation (365 nm); PA-SPE: 65 °C, overnight, thermal initiation
+
+### Key Innovation Points
+1. Developed a plastic ceramic electrolyte (PCE) by hybridizing LATP ceramic with a self-healing solid polymer electrolyte (SH-SPE) featuring aprotic dynamic crosslinking via non-covalent -CH₃⋯CF₃ bonds, enabling unique dual-phase self-healing capability.
+2. Adopted a cold-milling fabrication strategy for PCE, avoiding high-temperature/high-pressure sintering, resulting in free-standing, flexible, and deformable properties suitable for roll-to-roll manufacturing and low stack pressure operation (<0.1 MPa).
+3. Designed a hierarchical solid-state electrolyte (H-SSE) with a polyacrylate-based SPE (PA-SPE) buffer layer, completely isolating LATP from Li⁰ anode to eliminate side reactions and enhance interfacial stability.
+4. Uncovered a two-step self-healing mechanism (polymer infiltration + ceramic particle migration) with a fast healing rate (up to 50.9 µm/hour), effectively eliminating defects that induce dendrite growth.
+
+## Main Results
+### Physicochemical Properties of Electrolyte
+| Performance Indicator | Test Conditions | Value | Unit |
+|---------|---------|------|------|
+| **Ionic Conductivity** | 25°C (30°C) | 7.5×10⁻⁴ | S cm⁻¹ |
+| **Ionic Conductivity** | 100°C | 5.09×10⁻³ | S cm⁻¹ |
+| **Ionic Conductivity** | -40°C | N/A | S cm⁻¹ |
+| **Li⁺ Transference Number** | Room temperature | 0.74 | - |
+| **Electrochemical Window** | Room temperature | 0-4.6 | V (vs. Li⁺/Li) |
+| **Flame Retardancy** | Room temperature | Excellent (non-flammable SN additive) | - |
+| **Mechanical Properties** | Room temperature (SH-SPE) | 10⁴-10⁵ | Pa (Storage modulus, G') |
+| **Mechanical Properties** | Room temperature (PCE) | 10⁶-10⁷ | Pa (Storage modulus, G') |
+| **Mechanical Properties** | Room temperature (Stretchability) | >220% | Elongation at break |
+
+### Battery Performance Data
+#### Li⁰||Li⁰ Symmetric Battery
+| Current Density | Areal Capacity | Stable Cycling Time | Overpotential | Remarks |
+|---------|---------|------------|--------|------|
+| 1 mA/cm² | 0.5 mAh/cm² | >2000 h | Stable | PCE-based |
+| 1 mA/cm² | - | >2900 h | Stable | H-SSE-based, AAC=2900 mAh/cm² |
+| 2 mA/cm² | 2 mAh/cm² | - | Stable | H-SSE-based, AAC=2000 mAh/cm² |
+| >30 mA/cm² | - | - | Stable | H-SSE-based, critical current density |
+
+#### Li⁰||LiFePO₄ (LFP) Battery
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
+|---------|---------|---------|-----------|------|
+| 22°C, C/2 (0.19 mA/cm²) | ~150 mAh/g | >1300 cycles | 92% | PCE-based, stack pressure <0.1 MPa |
+| 50°C, 2C (0.69 mA/cm²) | ~140 mAh/g | ~4000 cycles | 88% | H-SSE-based, capacity fade 0.003% per cycle |
+| 22°C, C/2 (0.38 mA/cm²) | ~140 mAh/g | 2400 cycles | 84% | H-SSE-based, electrode loading 4.5 mg/cm² |
+
+#### Li⁰||High-Ni Zero-Co Zero-Strain Cathode Battery
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
+|---------|---------|---------|-----------|------|
+| 22°C, C/2 (0.23 mA/cm²) | 152 mAh/g | 500 cycles | 81% | PCE-based, stack pressure <0.1 MPa |
+| 50°C, 1C (0.55 mA/cm²) | 144 mAh/g | 3600 cycles | >70% | H-SSE-based, no short-circuiting |
+
+#### Li⁰||NMC811 Battery (High Loading: 7.4 mg/cm²)
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
+|---------|---------|---------|-----------|------|
+| 22°C, C/6 (0.24 mA/cm²) | 129.9 mAh/g | 1000 cycles | 71% | H-SSE-based, no catholyte |
+
+### Special Performance
+- **Wide-Temperature Performance**: Stable operation at room temperature and 50°C; excellent cycling durability at elevated temperature (50°C, 4000 cycles for LFP cells); low-temperature performance not reported.
+- **Safety**: Non-flammable (SN additive), thermal stability, self-healing capability eliminates short-circuit risks; operates under near-zero stack pressure (<0.1 MPa) without delamination.
+- **Other Characteristic Performance**: Fast self-healing rate (22.6-50.9 µm/hour), dendrite-free Li⁰ deposition, high areal capacity tolerance (up to 6 mAh/cm²), compatibility with commercial cathodes.
+
+## Mechanism Analysis and Characterization
+- **Operando XRF Microscopy**: Directly visualized the two-step self-healing process (polymer infiltration followed by LATP migration) and confirmed no electrode-electrolyte delamination under cycling.
+- **Cryo-TEM/EDS Mapping**: Revealed uniform infiltration of SH-SPE into LATP grain boundaries, dense dome-shaped Li⁰ deposits with a compact SEI layer (enriched in C, N, O, F, S), and nano-sized Li₂O domains in SEI.
+- **Solid-State NMR (MAS-ssNMR, 2D EXSY NMR)**: Confirmed non-covalent -CH₃⋯CF₃ interactions between EA and MTFSI, and fast Li⁺ exchange between polymer and ceramic phases (cross-peaks observed at 5 ms mixing time).
+- **XAS/XPS**: Elucidated SEI composition (LiF, Li₂O, Li₃N, Li₂CO₃, S-Oₓ, Li₂Sₓ) and verified that PA-SPE buffer layer isolates LATP from Li⁰ anode to prevent lithiation degradation.
+- **EIS/Impedance Spectroscopy**: Demonstrated 33-fold increase in LATP grain boundary ionic conductivity (0.8 mS/cm vs. 0.024 mS/cm) and 32-fold decrease in electron conductivity (5.7E-8 S/cm vs. 1.5E-6 S/cm) after SH-SPE infiltration; stable charge transfer resistance (~14.5 ohm·cm²) for PCE-based symmetric cells.
+
+## Conclusions and Significance
+### Core Conclusions
+1. The developed PCE integrates the advantages of ceramic (high modulus, dendrite inhibition) and polymer (flexibility, self-healing) electrolytes, solving key limitations of OCEs (grain boundary resistance, brittleness, interfacial instability).
+2. The aprotic dynamic crosslinking network enables unique dual-phase self-healing, eliminating defect-induced dendrite growth and chemomechanical degradation.
+3. The hierarchical H-SSE design with PA-SPE buffer layer achieves complete isolation of LATP from Li⁰ anode, further extending full-cell cycle life to >3600 cycles.
+4. Cold-milling fabrication simplifies electrolyte production, enabling compatibility with conventional battery manufacturing processes.
+
+### Significance and Application Value
+- **Scientific Significance**: Provides a new design paradigm for solid-state electrolytes by combining dynamic polymer networks with inorganic ceramics, uncovering the intrinsic self-healing mechanism and interfacial regulation strategy for hybrid electrolytes.
+- **Technological Impact**: Overcomes long-standing challenges of OCEs (low conductivity, dendrite growth, high stack pressure, complex fabrication), promoting the practical application of solid-state lithium metal batteries.
+- **Application Prospects**: Suitable for high-energy-density electric vehicle batteries and large-scale energy storage systems, with advantages of high safety, long cycle life, and compatibility with existing manufacturing workflows.
+- **Future Directions**: Needs to improve initial coulombic efficiency and low-temperature performance by optimizing cathode-electrolyte interface and developing composite cathodes.

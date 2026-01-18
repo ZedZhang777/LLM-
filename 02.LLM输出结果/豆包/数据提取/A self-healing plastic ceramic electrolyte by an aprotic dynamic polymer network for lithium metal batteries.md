@@ -1,37 +1,49 @@
-# A self-healing plastic ceramic electrolyte by an aprotic dynamic polymer network for lithium metal batteries - 数据提取
-## 电解质组成
-| 组成 | 材料 | 含量/条件 |
-|------|------|----------|
-| 聚合物基体 | 自修复固体聚合物电解质（SH-SPE）+ 锂铝钛磷酸盐（LATP） | SH-SPE 30 wt% + LATP 70 wt% |
-| 单体 | 乙基丙烯酸酯（EA）、（三氟甲烷）磺酰亚胺锂甲基丙烯酸酯（MTFSI） | EA/MTFSI = 5:8 ~ 5:1（w/w） |
-| 锂盐 | 双（三氟甲磺酰）亚胺锂（LiTFSI）、甲基丙烯酸锂盐（LiMTFSI）、高氯酸锂（LiClO₄，验证实验用） | LiTFSI 0.6 g（SH-SPE合成）、LiMTFSI 0.35 g（SH-SPE合成）；LiClO₄为替代锂盐 |
-| 锂盐浓度 | 未报道 | 未报道 |
-| 溶剂 | 丁二腈（SN） | 1 g（SH-SPE合成），作为固体晶体增塑剂 |
-| 添加剂 | 氟代碳酸乙烯酯（FEC） | 5 wt%（SEI成膜添加剂） |
-| 引发剂 | 苯基双（2,4,6-三甲基苯甲酰基）膦氧化物（PPO）、偶氮二异丁腈（AIBN） | PPO 0.1 wt%（光引发剂）；AIBN 0.1 wt%（热引发剂） |
-| 交联剂 | 乙二醇二甲基丙烯酸酯（EDA） | 仅PA-SPE缓冲层使用，0.3 g（PA-SPE合成） |
-| 聚合方法 | UV聚合（SH-SPE）、热聚合（PA-SPE）、冷磨-辊压（PCE） | - |
-| 聚合条件 | UV聚合：365 nm UV照射，10 min，22 °C；热聚合：65 °C，过夜；冷磨-辊压：22 °C，多次辊压至均质 | - |
+# A self-healing plastic ceramic electrolyte by an aprotic dynamic polymer network for lithium metal batteries - Data Extraction
+## Electrolyte Composition
+| Component | Material | Content/Conditions |
+|-----------|----------|--------------------|
+| Polymer Matrix | Self-healing solid polymer electrolyte (SH-SPE) | 30 wt% (in PCE) |
+| Monomer | Ethyl acrylate (EA), (Trifluoromethane) sulfonimide lithium methacrylate (MTFSI) | EA: 0.35 g, MTFSI: 0.35 g (per SH-SPE batch) |
+| Lithium Salt | Lithium bis(trifluoromethanesulfonyl) imide (LiTFSI) | 0.6 g (per SH-SPE batch) |
+| Lithium Salt Concentration | - | Not reported |
+| Solvent | - | 无（溶剂-free体系） |
+| Additives | 4-fluoro-1,3-dioxolan-2-one (FEC), Succinonitrile (SN) | FEC: 5 wt%, SN: 1 g (per SH-SPE batch) |
+| Initiator | Phenylbis(2,4,6-trimethylbenzoyl) phosphineoxide (PPO) | 0.1 wt% (per SH-SPE batch) |
+| Crosslinking Agent | - | 无（动态非共价交联：-CH₃⋯CF₃相互作用） |
+| Polymerization Method | UV-polymerization (SH-SPE); Cold-milling (PCE preparation) | SH-SPE: UV聚合；PCE: 冷碾混合+SH-SPE原位UV聚合 |
+| Polymerization Conditions | - | SH-SPE: 365 nm UV照射10 min，22°C；PCE: 22°C冷碾后室温储存过夜 |
 
-## 电解质性能
-| 性能指标 | 数值 | 单位 | 测试条件 | 备注 |
-|---------|------|------|---------|------|
-| 离子电导率 | 0.75；1.01；5.09 | mS/cm | 30 °C（PCE）；30 °C（H-SSE）；100 °C（PCE） | 换算为S cm⁻¹：7.5×10⁻⁴、1.01×10⁻³、5.09×10⁻³ |
-| 离子电导率（低温） | 未报道 | - | - | - |
-| Li⁺迁移数 | 0.74 | - | 室温 | 基于Bruce-Vincent电位静态极化法 |
-| 电化学窗口 | 4.6 | V（vs. Li⁺/Li） | 扫描速率1 mV/s | H-SSE测试结果，稳定区间0~4.6 V |
-| 阻燃性 | 不可燃/non-flammable | - | - | 增塑剂SN为不可燃材料，体系无易燃溶剂 |
+## Electrolyte Performance
+| Performance Indicator | Value | Unit | Test Conditions | Remarks |
+|-----------------------|-------|------|-----------------|---------|
+| Ionic Conductivity | 7.5×10⁻⁴; 1.01×10⁻³ | S cm⁻¹ | 30°C (PCE); 30°C (H-SSE) | PCE 100°C时为5.09×10⁻³ S cm⁻¹ |
+| Ionic Conductivity (Low Temperature) | - | - | - | Not reported |
+| Li⁺ Transference Number | 0.74 | - | Room temperature | - |
+| Electrochemical Window | 4.6 | V vs. Li⁺/Li | - | H-SSE体系，稳定范围0–4.6 V |
+| Flame Retardancy | 非易燃 | - | - | 含不燃性SN增塑剂，体系无易燃溶剂 |
 
-## 电池性能
-### 电池1：Li⁰||Li⁰（PCE对称电池）
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 22 °C，1 mA/cm²，0.5 mAh/cm² | - | - | >4000 小时（8600圈） | >90 | % | 无枝晶生长，过电位稳定 |
-| 22 °C，0.2 mA/cm²，0.5 mAh/cm² | 6 | mAh/cm² | - | 稳定 | - | 最大沉积容量，无短路 |
+## Battery Performance
+### Battery 1: Li⁰-Li⁰ Symmetric Battery
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles/Cycling Time | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 1 mA/cm², 22°C, <0.1 MPa | - | - | 2000 h | - | - | 无枝晶生长，稳定循环 |
+| 0.2 mA/cm², 22°C, <0.1 MPa | - | - | 4300 h | - | - | 过电位稳定，无软短路 |
+| 1 mA/cm², 22°C, <0.1 MPa (H-SSE) | - | - | 2900 h | - | - | 累计面容量2900 mAh/cm² |
 
-### 电池2：Li⁰||零应变阴极（H-SSE全电池）
-| 测试条件 | 初始容量 | 容量单位 | 循环圈数 | 容量保持率 | 保持率单位 | 备注 |
-|---------|---------|---------|---------|-----------|-----------|------|
-| 50 °C，1 C（0.55 mA/cm²），2.8-4.2 V | 144 | mAh/g | 1650 | 80 | % | 零应变阴极：LiNi₀.₈Mn₀.₁₃Ti₀.₀₂Mg₀.₀₂Nb₀.₀₁Mo₀.₀₂O₂ |
-| 50 °C，1 C（0.55 mA/cm²），2.8-4.2 V | 144 | mAh/g | 2860 | 70 | % | 无短路，库仑效率≈99.9% |
-| 22 °C，C/6（0.24 mA/cm²），2.8-4.2 V | 129.9 | mAh/g | 1000 | 71 | % | 适配NMC811阴极（7.4 mg/cm²），H-SSE体系 |
+### Battery 2: Li⁰|H-SSE|High-Ni Zero-Co Zero-Strain Cathode
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| 1C (0.55 mA/cm²), 50°C, 2.8–4.2 V, <0.1 MPa | 144 | mAh g⁻¹ | 1650 | 80 | % | 无短路现象 |
+| 1C (0.55 mA/cm²), 50°C, 2.8–4.2 V, <0.1 MPa | 144 | mAh g⁻¹ | 2860 | 70 | % | 库仑效率99.94% |
+| 1C (0.55 mA/cm²), 50°C, 2.8–4.2 V ( pouch cell) | 141.8 | mAh g⁻¹ | 400 | 79 | % | 无外部压力，柔性封装 |
+
+### Battery 3: Li⁰|H-SSE|NMC811 Cathode
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| C/6 (0.24 mA/cm²), 22°C, 2.8–4.2 V, <0.1 MPa | 129.9 | mAh g⁻¹ | 640 | 80 | % | 阴极载量7.4 mg/cm² |
+| C/6 (0.24 mA/cm²), 22°C, 2.8–4.2 V, <0.1 MPa | 129.9 | mAh g⁻¹ | 1000 | 71 | % | 无阴极电解质添加 |
+
+### Battery 4: Li⁰|PCE|LFP Cathode
+| Test Conditions | Initial Capacity | Capacity Unit | Number of Cycles | Capacity Retention | Retention Rate Unit | Remarks |
+|-----------------|------------------|---------------|------------------|--------------------|---------------------|---------|
+| C/2 (0.19 mA/cm²), 22°C, 2.8–3.8 V, <0.1 MPa | - | - | 1300 | 92 | % | 每循环容量衰减0.006% |

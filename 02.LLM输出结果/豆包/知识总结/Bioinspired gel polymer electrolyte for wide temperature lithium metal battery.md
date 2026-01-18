@@ -1,94 +1,83 @@
 # Bioinspired gel polymer electrolyte for wide temperature lithium metal battery
-## 基本信息
-| 项目 | 内容 |
+## Basic Information
+| Item | Content |
 |------|------|
-| **期刊** | Nature Communications |
-| **年份/卷期** | 2025, 16, 2474 |
+| **Journal** | Nature Communications |
+| **Year/Volume-Issue** | 2025, 16:2474 |
 | **DOI** | https://doi.org/10.1038/s41467-025-57856-w |
-| **第一作者** | Shuohan Liu |
-| **通讯作者** | Hui Pan、Cheng Yang、Xiujun Han、Shenmin Zhu |
-| **研究机构** | 1. 上海交通大学材料科学与工程学院金属基复合材料国家重点实验室；2. 上海空间电源研究所空间电源国家重点实验室；3. 齐鲁工业大学（山东省科学院）材料科学与工程学院；4. 北京理工大学化学与化工学院 |
+| **First Author** | Shuohan Liu |
+| **Corresponding Author** | Hui Pan, Cheng Yang, Xiujun Han, Shenmin Zhu |
+| **Affiliation** | 1. State Key Laboratory of Metal Matrix Composites, School of Materials Science and Engineering, Shanghai Jiao Tong University, Shanghai, China; 2. State Key Laboratory of Space Power-Sources, Shanghai Institute of Space Power-Sources, Shanghai, China; 3. School of Materials Science and Engineering, Qilu University of Technology (Shandong Academy of Sciences), Jinan, Shandong, China; 4. School of Chemistry and Chemical Engineering, Beijing Institute of Technology, Beijing, China |
 
-## 研究背景与动机
-锂金属电池在宽温度范围下的稳定运行具有重要应用价值，但现有电解质存在显著局限性：商用锂离子电池电解液工作温度范围窄（-20~60℃），高温下因易燃性存在安全隐患；固态电解质低温性能差（0℃以下离子电导率急剧下降）；传统凝胶聚合物电解质（GPEs）在低温（<25℃）时离子传输动力学不足、去溶剂化能高，高温（>80℃）时电解质-电极界面（EEIs）不稳定、副反应剧烈。现有调控弱溶剂化结构的方法多聚焦于液体组分，鲜有通过聚合物骨架设计实现的研究。因此，亟需开发一种兼具宽温适应性、高离子传输性能和稳定界面的凝胶聚合物电解质。
+## Research Background and Motivation
+Lithium metal batteries with gel polymer electrolytes (GPEs) are highly expected to operate stably in a wide temperature range, but insufficient ion transport dynamics at low temperatures (LT, <25 °C) and unstable electrolyte-electrode interfaces (EEIs) with intense side reactions at high temperatures (HT, >80 °C) greatly hinder their practical applications. Conventional GPEs suffer from poor ion transport and high desolvation energy at LT, while current strategies to construct weak solvation structures (a key approach for temperature-independent electrolytes) mainly focus on modulating liquid components, with few studies regulating the polymer framework. Thus, developing a GPE with a polymer framework-modulated weak solvation structure for wide-temperature stable operation is urgently needed.
 
-## 研究方法与创新点
-### 凝胶电解质组成
-| 组成部分 | 具体材料 | 含量/比例 |
+## Research Methods and Innovation Points
+### Composition of Gel Electrolyte
+| Component | Specific Material | Content/Ratio |
 |---------|---------|----------|
-| **聚合物基体/单体** | 三氟乙基甲基丙烯酸酯（TFMA） | 20 wt.% |
-| **锂盐** | 双（三氟甲烷磺酰基）酰亚胺锂（LiTFSI） | 1 M（溶于FEP溶剂） |
-| **溶剂** | 3,3,3-三氟丙酸乙酯（FEP） | 溶剂主体（余量） |
-| **添加剂** | 氟代碳酸乙烯酯（FEC） | 5 wt.% |
-| **引发剂/交联剂** | 引发剂：偶氮二异丁腈（AIBN）；交联剂：聚乙二醇二丙烯酸酯（PEGDA） | 引发剂：0.5 wt.%；交联剂：1 wt.% |
-| **聚合条件** | 70℃固化5小时 | - |
+| **Polymer Matrix/Monomer** | Polymer Matrix: Poly(trifluoroethyl methacrylate) (PTFMA); Monomer: 2,2,2-trifluoroethyl methacrylate (TFMA) | TFMA: 20 wt.% |
+| **Lithium Salt** | Lithium bis(trifluoromethanesulphonyl)imide (LiTFSI) | 1 M (dissolved in FEP) |
+| **Solvent** | Ethyl 3,3,3-trifluoropropanoate (FEP) | - (as solvent matrix) |
+| **Additive** | Fluoroethylene carbonate (FEC) | 5 wt.% |
+| **Initiator/Crosslinking Agent** | Initiator: 2,2'-Azobis(2-methylpropionitrile) (AIBN); Crosslinking Agent: Poly(ethylene glycol) diacrylate (PEGDA, Mn=575) | AIBN: 0.5 wt.%; PEGDA: 1 wt.% |
+| **Polymerization Conditions** | Temperature: 70 °C; Time: 5 h | - |
 
-### 聚合方法
-- **聚合类型**：原位自由基聚合
-- **聚合条件**：温度70℃、时间5小时、AIBN引发
+### Polymerization Method
+- **Polymerization Type**: In-situ Radical Polymerization
+- **Polymerization Conditions**: Temperature: 70 °C; Time: 5 h; Initiation Method: AIBN-initiated radical polymerization
 
-### 主要创新点
-1. 受水草与水的相互作用启发，设计刷状聚合物骨架（PTFMA）与不对称耦合剂（FEP），通过双偶极耦合作用构建弱溶剂化结构，将溶剂分子排出Li⁺第一溶剂化鞘，优化离子传输环境。
-2. 突破温度限制，实现-30~80℃宽温稳定运行，兼具高离子电导率（-40℃时1.03×10⁻⁴ S cm⁻¹）和高Li⁺迁移数（0.83），解决极端温度下电解质性能衰减问题。
-3. 形成富含LiF和Li₂O的均匀、高导电EEIs，有效抑制锂枝晶生长和高温副反应，同时电解质具有无flammable特性，显著提升电池安全性。
+### Key Innovation Points
+1. Bioinspired design: Mimicking the interaction between water grass and water, a brush-like PTFMA polymer framework and asymmetric FEP form double dipole coupling bonds, which expel FEP from the first Li⁺ solvation sheath to construct a weak solvation structure.
+2. Wide-temperature adaptability: Enables Li metal batteries to operate stably in the range of -30 to 80 °C, with high ionic conductivity and Li⁺ transference number even at extreme temperatures.
+3. Stable interface construction: Induces the formation of LiF-rich and Li₂O-enriched EEIs (solid electrolyte interphase [SEI] and cathode electrolyte interphase [CEI]), effectively inhibiting Li dendrite growth and electrolyte decomposition.
 
-## 主要结果
-### 电解质物理化学性能
-| 性能指标 | 测试条件 | 数值 | 单位 |
+## Main Results
+### Physicochemical Properties of Electrolyte
+| Performance Indicator | Test Conditions | Value | Unit |
 |---------|---------|------|------|
-| **离子电导率** | 25°C | 4.40×10⁻⁴ | S cm⁻¹ |
-| **离子电导率** | -40°C | 1.03×10⁻⁴ | S cm⁻¹ |
-| **Li⁺迁移数** | 25°C | 0.83 | - |
-| **电化学窗口** | 25°C（氧化电流密度10 μA cm⁻²） | 5.05 | V |
-| **阻燃性** | 燃烧实验 | 无flammable | - |
-| **机械性能** | 室温 | 固态均匀凝胶，无流动性 | - |
+| **Ionic Conductivity** | 25°C | 4.40×10⁻⁴ | S cm⁻¹ |
+| **Ionic Conductivity** | -40°C | 1.03×10⁻⁴ | S cm⁻¹ |
+| **Li⁺ Transference Number** | 25°C | 0.83 | - |
+| **Electrochemical Window** | 25°C (oxidation current density: 10 μA cm⁻²) | 5.05 | V |
+| **Flame Retardancy** | Combustion experiment | Non-flammable | - |
+| **Mechanical Properties** | Room temperature | Solid-like homogeneous bulk, no fluidity | - |
 
-### 电池性能数据
-#### NCM811||Li金属电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
+### Battery Performance Data
+#### LiNi₀.₈Co₀.₁Mn₀.₁O₂ (NCM811)||Li Metal Battery
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
 |---------|---------|---------|-----------|------|
-| 25℃，188 mA g⁻¹，3.0-4.3 V | 154.8 mAh g⁻¹ | 300次 | 92.5% | 正极载量1.6 mg cm⁻² |
-| 25℃，376 mA g⁻¹，3.0-4.3 V | 130.4 mAh g⁻¹ | 200次 | 90.8% | 正极载量1.6 mg cm⁻² |
-| -30℃，18.8 mA g⁻¹，3.0-4.3 V | 121.4 mAh g⁻¹ | - | - | 首次放电 |
-| -20℃，37.6 mA g⁻¹，3.0-4.3 V | 131.2 mAh g⁻¹ | 200次 | 97.1% | 正极载量1.6 mg cm⁻² |
-| 80℃，188 mA g⁻¹，3.0-4.3 V | 172.2 mAh g⁻¹ | 100次 | 94.0% | 正极载量1.6 mg cm⁻² |
-| 25℃，18.8 mA g⁻¹，3.0-4.3 V | 168.9 mAh g⁻¹ | 50次 | 无明显衰减 | 正极载量7 mg cm⁻² |
+| 25°C, 188 mA g⁻¹, 3.0-4.3 V, cathode mass loading 1.6 mg cm⁻² | 154.8 mAh g⁻¹ | 300 cycles | 92.5% | - |
+| 25°C, 376 mA g⁻¹, 3.0-4.3 V, cathode mass loading 1.6 mg cm⁻² | 130.4 mAh g⁻¹ | 200 cycles | 90.8% | - |
+| -30°C, 18.8 mA g⁻¹, 3.0-4.3 V | 121.4 mAh g⁻¹ | - | - | First discharge capacity |
+| -20°C, 37.6 mA g⁻¹, 3.0-4.3 V | 131.2 mAh g⁻¹ | 200 cycles | 97.1% | - |
+| 80°C, 188 mA g⁻¹, 3.0-4.3 V, cathode mass loading 1.6 mg cm⁻² | 172.2 mAh g⁻¹ | 100 cycles | 94.0% | - |
+| 25°C, 18.8 mA g⁻¹, 3.0-4.3 V, cathode mass loading 7 mg cm⁻² | 168.9 mAh g⁻¹ | 50 cycles | Nearly 100% | No obvious capacity fading |
 
-#### Li||Li对称电池
-| 电流密度 | 面积容量 | 稳定循环时间 | 过电位 | 备注 |
+#### Li||Li Symmetric Battery
+| Current Density | Areal Capacity | Stable Cycling Time | Overpotential | Remarks |
 |---------|---------|------------|--------|------|
-| 0.5 mA cm⁻² | 0.5 mAh cm⁻² | 1500小时 | ~60 mV | 25℃，无短路 |
-| 1.0 mA cm⁻² | - | 无软短路 | ~200 mV | 25℃，持续运行 |
+| 0.5 mA cm⁻² | 0.5 mAh cm⁻² | ≥1500 h | ~60 mV (unilateral) | 25°C, no short circuit |
+| Gradually increased to 1 mA cm⁻² | - | - | ~200 mV | 25°C, no soft short circuit |
 
-### 特殊性能
-- **宽温性能**：在-30~80℃范围内稳定工作，低温下电荷转移电阻（Rct）低于液态电解质，高温下SEI电阻（RSEI）变化小且数值低，界面传输动力学优异。
-- **安全性**：电解质无flammable；软包电池在弯曲、穿刺、切割等滥用条件下可正常供电，无起火、爆炸等安全问题。
-- **其他特色性能**：软包电池比能量高达490.8 Wh kg⁻¹，5.4 Ah大尺寸软包电池比能量达451 Wh kg⁻¹；自放电抑制效果显著，满电存储15天电压稳定（~4.2 V）。
+### Special Performance
+- **Wide-Temperature Performance**: Stable operation from -30 to 80 °C. At LT (-30 °C), it maintains high ionic conductivity and fast Li⁺ transport; at HT (80 °C), it suppresses electrolyte decomposition and cathode structure degradation.
+- **Safety**: Non-flammable; pouch cells can work normally under abusive conditions (bending, puncturing, cutting) without safety hazards.
+- **Other Characteristic Performance**: High specific energy (pouch cell up to 490.8 Wh kg⁻¹); good self-discharge resistance (voltage stable at ~4.2 V after 15 days of storage); compatible with high-voltage cathodes (e.g., LCO, 3.0-4.6 V).
 
-## 机理分析与表征
-1. **DFT计算**：证实PTFMA与FEP间具有最强结合能，二者通过C=O偶极与-CF₃取代基形成双偶极耦合，将FEP固定于聚合物骨架，避免泄漏并重构Li⁺溶剂化结构。
-2. **MD模拟**：揭示WSGPE中Li⁺第一溶剂化鞘以TFSI⁻为主（配位数3.71），FEP配位数仅0.31，形成阴离子富集的弱溶剂化结构，降低去溶剂化能并加速离子扩散。
-3. **光谱表征**：FTIR证实TFMA成功聚合（C=C双键峰消失）；Raman显示WSGPE中接触离子对（CIPs）占比44.1%，自由阴离子（FAs）占40.7%，无离子聚集体（AGGs）；NMR中⁷Li峰低场位移，佐证弱溶剂化环境。
-4. **电化学表征**：EIS分析表明WSGPE形成的EEIs具有高离子电导率，宽温下界面阻抗稳定；Tafel曲线显示-20℃时交换电流密度达0.38 mA cm⁻²，优于液态电解质（0.29 mA cm⁻²）。
-5. **微观表征**：SEM观察到循环后Li表面光滑无枝晶；HRTEM显示NCM811表面形成3 nm厚的均匀CEI；XPS和TOF-SIMS证实EEIs富含LiF和Li₂O，且均匀分布，抑制副反应和锂枝晶生长；XRD表明NCM811循环后晶体结构完整，无明显相变。
+## Mechanism Analysis and Characterization
+- **FTIR**: Confirmed the disappearance of C=C peaks, verifying the successful in-situ polymerization of TFMA to form PTFMA.
+- **DFT Calculations**: Demonstrated the strongest binding energy between PTFMA and FEP, and the formation of double dipole coupling bonds due to the electrostatic potential distribution of -CF₃ groups.
+- **MD Simulations**: Revealed the enrichment of FEP around PTFMA, the anion-rich Li⁺ solvation structure (similar to local high-concentration electrolytes), and calculated diffusion coefficients of Li⁺ (1.56×10⁻¹¹ m² s⁻¹), TFSI⁻ (1.66×10⁻¹¹ m² s⁻¹), and FEP (1.93×10⁻¹⁰ m² s⁻¹).
+- **Raman/NMR Spectroscopy**: Validated the weak solvation structure (40.7% free anions, 44.1% contact ion pairs, 15.2% ion aggregates in Raman; downfield shift of ⁷Li NMR peak).
+- **EIS/Tafel Plots**: Showed lower charge transfer resistance (Rct) and SEI resistance (RSEI) of WSGPE-based cells at extreme temperatures; higher exchange current density (0.38 mA cm⁻² at -20 °C) indicating fast interfacial Li⁺ transfer kinetics.
+- **XPS/TOF-SIMS**: Analyzed the composition of EEIs—SEI is LiF-rich (inner layer) with organic species (outer layer), and CEI is uniform and thin (3 nm) enriched with LiF and Li₂O; LiF is uniformly distributed in SEI.
+- **SEM/TEM**: Observed dense and smooth Li deposition (no dendrites) after cycling; uniform 3 nm-thick CEI on NCM811 (vs. uneven CEI in liquid electrolyte).
+- **XRD**: Confirmed that NCM811 cycled with WSGPE maintains structural integrity (no obvious shift of (003) peak), while liquid electrolyte causes irreversible structural changes.
 
-## 结论与意义
-### 核心结论
-通过双偶极耦合策略设计的生物启发弱溶剂化凝胶聚合物电解质（WSGPE），利用PTFMA与FEP的不对称相互作用构建阴离子富集的弱溶剂化结构，实现了-30~80℃宽温范围内锂金属电池的稳定运行。该电解质兼具高离子电导率、高Li⁺迁移数、宽电化学窗口和无flammable特性，可诱导形成富含LiF和Li₂O的稳定EEIs，有效抑制锂枝晶生长和高温副反应，显著提升电池的循环稳定性、安全性和比能量。
+## Conclusions and Significance
+### Core Conclusions
+A bioinspired weakly-solvated gel polymer electrolyte (WSGPE) was successfully developed via double dipole coupling between brush-like PTFMA and FEP. This design constructs an anion-rich weak solvation structure, enabling Li metal batteries to operate stably from -30 to 80 °C. WSGPE exhibits high ionic conductivity, high Li⁺ transference number, and non-flammability, and induces the formation of stable LiF/Li₂O-enriched EEIs, which inhibit Li dendrite growth and electrolyte decomposition. The corresponding NCM811||Li batteries show excellent cycling stability at extreme temperatures, and pouch cells achieve a high specific energy of 490.8 Wh kg⁻¹.
 
-### 意义与应用价值
-1. 提出了通过聚合物骨架与溶剂分子的偶极耦合调控Li⁺溶剂化结构的新范式，突破了传统凝胶电解质宽温性能差的瓶颈，为宽温电解质设计提供了新思路。
-2. 解决了锂金属电池在极端温度下的界面稳定性和离子传输问题，推动其在寒冷地区、高温环境等特殊场景的应用（如新能源汽车、储能电站）。
-3. 软包电池实现490.8 Wh kg⁻¹的高比能量，且具有优异的安全性能，为高能量密度锂金属电池的商业化提供了关键技术支撑，助力储能领域的技术升级。
-
----
-## 质量检查清单
-- [x] 所有表格中的数值单位是否正确
-- [x] 数值是否准确（与原文核对）
-- [x] 化学式是否正确（如LiTFSI、FEP等）
-- [x] 电池类型描述是否清晰
-- [x] 循环寿命是否标注了测试条件
-- [x] 创新点是否准确提炼
-
----
-**输出文件命名**：`s41467-025-57856-w_豆包_总结_20260118.md`
+### Significance and Application Value
+This work proposes a new strategy for regulating Li⁺ solvation structure and interfacial chemistry by modifying the polymer framework of GPEs, breaking the performance bottleneck of conventional electrolytes at extreme temperatures. It provides a practical and straightforward method for the development of high-safety, wide-temperature, and high-energy-density lithium metal batteries, which is of great significance for promoting the commercial application of lithium metal batteries in extreme environments (e.g., low-temperature plateau areas, high-temperature industrial scenarios) and expanding their application scope in energy storage systems.

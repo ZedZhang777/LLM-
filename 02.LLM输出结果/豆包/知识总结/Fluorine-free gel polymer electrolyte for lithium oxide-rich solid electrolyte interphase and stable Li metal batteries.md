@@ -1,100 +1,95 @@
 # Fluorine-free gel polymer electrolyte for lithium oxide-rich solid electrolyte interphase and stable Li metal batteries
-## 基本信息
-| 项目 | 内容 |
+## Basic Information
+| Item | Content |
 |------|------|
-| **期刊** | Nature Communications |
-| **年份/卷期** | 2025, 16:9308 |
+| **Journal** | Nature Communications |
+| **Year/Volume-Issue** | 2025, 16:9308 |
 | **DOI** | https://doi.org/10.1038/s41467-025-64345-7 |
-| **第一作者** | Weijian Xu |
-| **通讯作者** | Lei Tian |
-| **研究机构** | 1. 深圳大学化学与环境工程学院；2. 清华大学材料科学与工程学院 |
-## 研究背景与动机
-锂金属电池的稳定固态电解质界面（SEI）构建是核心挑战。现有方案多依赖含氟试剂形成富LiF的SEI以提升循环性能，但含氟试剂存在成本高、环境污染等问题，限制了其广泛应用。当前无氟聚合物电解质体系多采用硼酸盐，以PMMA、PEO等为基体，存在电化学窗口窄、与高电压正极兼容性差、SEI组成结构研究不深入、电池循环性能不佳等局限。因此，亟需通过分子结构设计和界面工程优化，开发高界面兼容性的无氟聚合物电解质，构建组成可控的无氟SEI，解决上述问题。
-## 研究方法与创新点
-### 凝胶电解质组成
-| 组成部分 | 具体材料 | 含量/比例 |
+| **First Author** | Weijian Xu |
+| **Corresponding Author** | Lei Tian |
+| **Affiliation** | 1.College of Chemistry and Environmental Engineering, Shenzhen University, Shenzhen, P. R. China; 2.School of Materials Science and Engineering, Tsinghua University, Beijing, P. R. China |
+
+## Research Background and Motivation
+The development of stable solid-electrolyte interphases (SEI) is a core challenge for Li-metal batteries. Although fluorinated reagents can improve cycling performance by forming LiF-rich SEI, they face problems of high costs and environmental pollution, limiting their widespread application. Existing fluorine-free polymer electrolytes mainly use borate salts with traditional matrices (e.g., PMMA, PEO), which have narrow electrochemical windows, poor compatibility with high-voltage cathodes, and insufficient in-depth research on SEI composition and structure, leading to poor battery cycling performance. Therefore, there is an urgent need to develop high-performance fluorine-free polymer electrolytes through molecular structure design and interface engineering optimization, construct fluorine-free SEI with controllable composition, and solve the above limitations.
+
+## Research Methods and Innovation Points
+### Composition of Gel Electrolyte
+| Component | Specific Material | Content/Ratio |
 |---------|---------|----------|
-| **聚合物基体/单体** | 碳酸亚乙烯酯（VC，单体）、N,N'-亚甲基双丙烯酰胺（MBA，单体）；聚（碳酸亚乙烯酯-co-N,N'-亚甲基双丙烯酰胺）（PVM，聚合物基体） | VC:MBA摩尔比=98:2 |
-| **锂盐** | 双草酸硼酸锂（LiBOB）、硝酸锂（LiNO₃） | LiBOB：1 mol·L⁻¹；LiNO₃：0.2 mol·L⁻¹ |
-| **溶剂** | 碳酸丙烯酯（PC）、1,2-二甲氧基乙烷（DME） | PC:DME体积比=1:3 |
-| **添加剂** | - | - |
-| **引发剂/交联剂** | 偶氮二异丁腈（AIBN，引发剂）；MBA（交联剂） | AIBN：0.5 wt% |
-| **聚合条件** | 氩气氛围，70°C，反应6 h | - |
-### 聚合方法
-- **聚合类型**：原位自由基聚合
-- **聚合条件**：温度70°C，时间6 h，氩气保护引发
-### 主要创新点
-1. 设计无氟准固态聚合物电解质（PVM-GPE），通过VC与MBA的原位自由基共聚形成交联结构，构建富含Li₂O/O-N杂化SEI，兼顾界面稳定性与Li⁺传输动力学。
-2. 调控Li金属沉积行为，使Li优先沿（200）晶面沉积而非形成锂枝晶，提升电荷转移效率和沉积-剥离可逆性。
-3. 实现高离子电导率（1.4×10⁻³ S·cm⁻¹）和高Li⁺迁移数（0.77），兼容高镍（NCM811/NCM90）、高电压（4.5 V）、高载量（8 mg·cm⁻²）正极，循环稳定性优于传统含氟聚合物电解质。
-## 主要结果
-### 电解质物理化学性能
-| 性能指标 | 测试条件 | 数值 | 单位 |
+| **Polymer Matrix/Monomer** | Vinylene carbonate (VC), N,N’-methylenebisacrylamide (MBA) | MBA: 2 mol% relative to VC |
+| **Lithium Salt** | Lithium bis(oxalate)borate (LiBOB) | 1 mol L⁻¹ |
+| **Solvent** | Propylene carbonate (PC), 1,2-Dimethoxyethane (DME) | Volume ratio PC:DME = 1:3 |
+| **Additive** | Lithium nitrate (LiNO₃) | 0.2 mol L⁻¹ |
+| **Initiator/Crosslinking Agent** | Azodiisobutyronitrile (AIBN, initiator); MBA (crosslinking agent) | AIBN: 0.5 wt% relative to the mixture |
+| **Polymerization Conditions** | 70 °C, argon atmosphere, 6 h | - |
+
+### Polymerization Method
+- **Polymerization Type**: In-situ Radical Copolymerization
+- **Polymerization Conditions**: Temperature: 70 °C; Time: 6 h; Initiation Method: AIBN-initiated
+
+### Key Innovation Points
+1. Developed a fluorine-free quasi-solid polymer electrolyte (PVM-GPE) through in-situ radical copolymerization of VC and MBA, which forms an O/N-containing hybrid SEI rich in Li₂O and Li₃N, effectively regulating Li deposition along the (200) crystallographic plane and inhibiting Li dendrite growth.
+2. The synergistic effect of the polymer matrix, LiBOB, and LiNO₃ optimizes the Li⁺ solvation structure, achieving a high Li⁺ transference number (0.77) and a wide electrochemical window (4.74 V), while improving compatibility with high-nickel cathodes and high-voltage systems.
+3. Adopted a fluorine-free design concept that avoids environmental pollution and high costs associated with fluorinated electrolytes, and the electrolyte exhibits excellent cycling stability in practical battery systems (coin cells and pouch cells), providing a sustainable material design paradigm.
+
+## Main Results
+### Physicochemical Properties of Electrolyte
+| Performance Indicator | Test Conditions | Value | Unit |
 |---------|---------|------|------|
-| **离子电导率** | 25°C | 1.4×10⁻³ | S cm⁻¹ |
-| **离子电导率** | -40°C | - | S cm⁻¹ |
-| **Li⁺迁移数** | 25°C | 0.77 | - |
-| **电化学窗口** | 25°C | 4.74 | V |
-| **阻燃性** | - | - | - |
-| **机械性能** | - | - | - |
-| **玻璃化转变温度（Tg）** | - | -34 | °C |
-| **热稳定性（10%失重温度）** | - | 167 | °C |
-### 电池性能数据
-#### NCM811||Li金属电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
+| **Ionic Conductivity** | 25°C | 1.4×10⁻³ | S cm⁻¹ |
+| **Ionic Conductivity** | -40°C | - | S cm⁻¹ |
+| **Li⁺ Transference Number** | 25°C | 0.77 | - |
+| **Electrochemical Window** | 25°C, sweep rate 1 mV s⁻¹ | 4.74 | V |
+| **Flame Retardancy** | - | - | - |
+| **Mechanical Properties** | - | - | - |
+| **Thermal Stability** | 10% weight loss temperature | ~167 | °C |
+| **Glass Transition Temperature (Tg)** | - | -34 | °C |
+
+### Battery Performance Data
+#### Li||NCM811 Battery
+| Test Conditions | Initial Capacity | Cycle Life | Capacity Retention Rate | Remarks |
 |---------|---------|---------|-----------|------|
-| 0.1 C，2.8-4.3 V | 196.4 | - | - | 恢复至0.1 C时容量保持率>99% |
-| 3 C，2.8-4.3 V | - | 800次 | 84.7% | - |
-| 0.5 C，2.8-4.3 V，正极载量8 mg·cm⁻² | 149.5 | - | - | 高载量正极兼容 |
-| 0.5 C，2.8-4.5 V | - | - | - | 4.5 V高压稳定循环 |
-#### NCM90||Li金属电池
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 0.5 C，2.8-4.3 V | - | - | - | 高镍正极兼容，循环稳定性良好 |
-#### Li||Li对称电池
-| 电流密度 | 面积容量 | 稳定循环时间 | 过电位 | 备注 |
+| 0.1 C, 2.8-4.3 V, 25°C | 196.4 mAh g⁻¹ | - | >99% | Capacity retention when restored to 0.1 C after high-rate cycling |
+| 3 C, 2.8-4.3 V, 25°C | - | 800 cycles | 84.7% | 1 C = 188 mA g⁻¹ (NCM811) |
+| 5 C, 2.8-4.3 V, 25°C | 117.1 mAh g⁻¹ | - | - | High-rate discharge capacity |
+| 0.5 C, 2.8-4.5 V, 25°C | - | - | - | Compatible with 4.5 V high-voltage system |
+| 0.5 C, 2.8-4.3 V, 25°C | 149.5 mAh g⁻¹ | - | - | High cathode loading (8 mg cm⁻²) |
+
+#### Li||Li Symmetric Battery
+| Current Density | Areal Capacity | Stable Cycling Time | Overpotential | Remarks |
 |---------|---------|------------|--------|------|
-| 1 mA·cm⁻² | 1 mAh·cm⁻² | 1500 h（750次） | 0.26 V | - |
-| 3 mA·cm⁻² | 1.5 mAh·cm⁻² | >100 h | - | 无短路，抑制锂枝晶 |
-#### Li||Cu不对称电池
-| 测试条件 | 库仑效率（CE） | 循环寿命 | 备注 |
+| 1 mA cm⁻² | 1 mAh cm⁻² | 1500 h (750 cycles) | 0.26 V | 25°C |
+| 3 mA cm⁻² | 1.5 mAh cm⁻² | >100 h | - | 25°C |
+
+#### Li||Cu Asymmetric Battery
+| Test Conditions | Average Coulombic Efficiency | Cycle Life | Remarks |
 |---------|---------|---------|------|
-| 0.5 mA·cm⁻²，0.5 mAh·cm⁻² | 94.8%（平均） | 200次 | - |
-| 1 mA·cm⁻²，0.5 mAh·cm⁻² | 95.27%（平均） | 100次 | - |
-#### 单层软包电池（NCM811||Li）
-| 测试条件 | 初始容量 | 循环寿命 | 容量保持率 | 备注 |
-|---------|---------|---------|-----------|------|
-| 0.2 C，2.8-4.3 V | 208 | >150次 | - | 可弯曲、折叠、切割仍工作 |
-#### 1 Ah软包电池（NCM811||Li）
-| 测试条件 | 实际容量 | 备注 |
-|---------|---------|------|
-| 0.1 C | 0.996 Ah | - |
-### 特殊性能
-- **宽温性能**：未明确提及低温（-40°C）离子电导率，但玻璃化转变温度低（-34°C），暗示良好的低温离子传输动力学潜力。
-- **安全性**：热稳定性良好（167°C仅10%失重），软包电池经弯曲、折叠、切割等滥用测试仍可正常工作，安全性能优异。
-- **其他特色性能**：无氟设计环境友好，兼容高镍、高电压、高载量正极，具备实际应用潜力。
-## 机理分析与表征
-1. **结构与热性能表征**：通过FTIR证实VC与MBA成功共聚形成PVM；TGA和DSC表明PVM-GPE热稳定性良好，低Tg促进离子传输。
-2. **溶剂化结构与离子传输机理**：MD模拟显示PVM参与Li⁺溶剂化鞘形成，构建阴离子（BOB⁻）主导的溶剂化结构，降低去溶剂化能垒；Raman光谱验证溶剂化结构从聚集态（AGGs）向接触离子对（CIPs）转变，促进Li⁺迁移；EIS和Arrhenius分析表明PVM-GPE活化能更低（10.89 KJ·mol⁻¹），离子传输能垒小。
-3. **SEI结构与组成机理**：XPS和TOF-SIMS证实SEI富含Li₂O（蚀刻前76%、蚀刻后28%）和Li₃N，O为主要元素；TEM观察到SEI均匀致密，存在Li₂O（111）和（200）晶面晶格条纹，引导Li有序沉积。
-4. **晶面调控机理**：XRD显示PVM-GPE使Li优先沿（200）晶面沉积（替代传统（110）晶面）；DFT计算表明PVM与Li（200）晶面结合能更低，表面能最小，抑制锂枝晶生长。
-5. **正极界面稳定性机理**：TEM观察到PVM-GPE在NCM811表面形成均匀7 nm厚的CEI；XPS证实CEI富含C、O、B、N等无机成分；原位XRD显示NCM811晶格偏移小（0.43°），结构稳定性提升。
-## 结论与意义
-### 核心结论
-1. 成功合成无氟准固态聚合物电解质PVM-GPE，通过VC与MBA的交联共聚及LiBOB/LiNO₃盐体系协同作用，形成富含Li₂O/O-N的杂化SEI。
-2. PVM-GPE具备高离子电导率、高Li⁺迁移数和宽电化学窗口，可调控Li沿（200）晶面均匀沉积，抑制锂枝晶和界面副反应。
-3. 基于PVM-GPE的锂金属电池（含全电池、对称电池、软包电池）在高倍率、高电压、高镍/高载量正极条件下表现出优异的循环稳定性和安全性。
-### 意义与应用价值
-1. 突破传统含氟电解质的环保与成本瓶颈，提供了无氟、可持续的电解质设计范式，推动锂金属电池绿色发展。
-2. 深入阐明了无氟SEI的组成-结构-性能关系，为界面工程优化提供理论指导。
-3. 兼容高镍、高电压、高载量正极及软包电池制备，满足电动航空、深空探测等高端领域对高能量密度、高稳定性储能系统的需求，具备广阔的实际应用前景。
----
-## 质量检查清单
-- [x] 所有表格中的数值单位是否正确
-- [x] 数值是否准确（与原文核对）
-- [x] 化学式是否正确（如LiBOB、LiNO₃等）
-- [x] 电池类型描述是否清晰
-- [x] 循环寿命是否标注了测试条件
-- [x] 创新点是否准确提炼
----
-**输出文件命名**：`s41467-025-64345-7_豆包_总结_20260118.md`
+| 0.5 mA cm⁻², 0.5 mAh cm⁻², 25°C | 94.8% | 200 cycles | - |
+| 1 mA cm⁻², 0.5 mAh cm⁻², 25°C | 95.27% | 100 cycles | - |
+
+### Special Performance
+- **Wide-Temperature Performance**: Low glass transition temperature (-34 °C) indicates good ion transport kinetics at low temperatures; no specific low-temperature capacity data provided.
+- **Safety**: Pouch batteries maintain stable operation under bending, folding, and cutting conditions; thermal stability is excellent (10% weight loss at ~167 °C).
+- **Other Characteristic Performance**: Compatible with high-nickel cathodes (NCM90) with stable cycling at 0.5 C; single-layer pouch cells achieve stable cycling for over 150 cycles at 0.2 C (discharge capacity up to 208 mAh g⁻¹); 1 Ah multi-layer pouch cells have a capacity of up to 0.996 Ah.
+
+## Mechanism Analysis and Characterization
+- **FT-IR**: Confirmed the successful copolymerization of VC and MBA (disappearance of C=C double bonds) and the presence of characteristic functional groups (HN-C=O, C=O).
+- **TGA/DSC**: Revealed good thermal stability (10% weight loss at ~167 °C) and a low glass transition temperature (-34 °C), which is beneficial for ion transport.
+- **Molecular Dynamics (MD) Simulation**: Demonstrated that PVM-GPE participates in the formation of Li⁺ solvation sheath, forming an anion-dominated solvation structure (coordination number of Li⁺ with PVM is 1.68), reducing the solvation energy (-10.12 eV) and facilitating Li⁺ desolvation and migration.
+- **X-ray Photoelectron Spectroscopy (XPS)**: Depth analysis confirmed that SEI is rich in Li₂O (76% and 28% before and after etching) and Li₃N; CEI on NCM811 cathode contains C-O, C=O, Li₃N, and B-O components, with low F content (~5%).
+- **Time-of-Flight Secondary Ion Mass Spectrometry (TOF-SIMS)**: 3D imaging showed uniform distribution of oxygen-containing components in SEI, which promotes uniform Li deposition.
+- **Transmission Electron Microscopy (TEM)**: Observed a uniform SEI structure with lattice fringes of Li₂O (111) (0.267 nm) and Li₂O (200) (0.231 nm); the CEI on NCM811 cathode is ~7 nm thick and uniform.
+- **X-ray Diffraction (XRD)**: Ex-situ XRD confirmed that Li preferentially deposits along the (200) crystal plane in PVM-GPE system; in-situ XRD showed small lattice offset (0.43°) of NCM811 cathode, indicating low volume change.
+- **Density Functional Theory (DFT) Calculations**: Revealed that PVM has lower adsorption energy on Li (200) crystal plane than on (110) plane, making (200) the preferential growth orientation; the adsorption energy of PVM-GPE on NCM811 (003) plane is the highest, facilitating CEI formation.
+- **Electrochemical Impedance Spectroscopy (EIS)/Tafel Curve**: PVM-GPE has lower Li⁺ transport activation energy (10.89 KJ mol⁻¹) and higher exchange current density (0.41 mA cm⁻²) than PDE electrolyte, indicating better interfacial kinetics.
+
+## Conclusions and Significance
+### Core Conclusions
+1. The fluorine-free gel polymer electrolyte PVM-GPE, synthesized by in-situ radical copolymerization of VC and MBA, forms an O/N-containing hybrid SEI rich in Li₂O and Li₃N, which regulates Li deposition along the (200) crystal plane, inhibits Li dendrite growth, and improves interfacial stability.
+2. PVM-GPE exhibits excellent electrochemical performance: 25°C ionic conductivity of 1.4×10⁻³ S cm⁻¹, Li⁺ transference number of 0.77, and electrochemical window of 4.74 V. It enables Li||NCM811 batteries to achieve 84.7% capacity retention after 800 cycles at 3 C, and Li||Li symmetric batteries to stably cycle for 1500 h at 1 mA cm⁻².
+3. PVM-GPE has good compatibility with high-nickel cathodes (NCM90), high-voltage systems (4.5 V), and high-load cathodes (8 mg cm⁻²), and pouch cells based on it show stable cycling performance, verifying its practical application potential.
+
+### Significance and Application Value
+1. The fluorine-free design avoids the environmental pollution and high cost issues of traditional fluorinated electrolytes, providing a sustainable material design paradigm for the development of next-generation solid-state batteries.
+2. By optimizing the SEI composition and regulating Li deposition orientation, the key problem of Li metal battery interface instability is solved, which is of great significance for promoting the commercialization of high-energy-density Li metal batteries.
+3. The electrolyte has broad application prospects in high-tech fields such as electric aviation, deep space exploration, and deep-sea underwater vehicles that require high-energy-density energy systems, and can also be extended to other metal battery systems.
